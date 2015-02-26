@@ -1,0 +1,1 @@
+{"version":3,"sources":["less/boo.less"],"names":[],"mappings":"AAAA,IACC;EACC,mBAAA;EACA,eAAA;EACA,cAAA;EACA,0BAAA","sourcesContent":["body {\n\th1 {\n\t\tfont-weight: normal;\n\t\tfont-size: 38px;\n\t\tmargin: 0 auto;\n\t\ttext-transform: capitalize;\n\t}\n}"]}
