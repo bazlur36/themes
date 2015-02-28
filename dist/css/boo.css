@@ -4,4 +4,50 @@ body h1 {
   margin: 0 auto;
   text-transform: capitalize;
 }
+.sidebar-offcanvas {
+  background: #cb4542;
+  /* draw borders ?*/
+}
+.sidebar-offcanvas .hex {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+.sidebar-offcanvas .hex:before {
+  content: '';
+  padding-top: 120%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sidebar-offcanvas .hex:after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  width: 120%;
+  padding-top: 120%;
+  transform: rotatex(45deg) rotate(45deg);
+  text-align: center;
+  box-shadow: 0 0 0 300px #cb4542;
+}
+.sidebar-offcanvas .hex img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 -10px;
+}
+.sidebar-offcanvas .hex {
+  outline: solid;
+  outline-offset: -3px;
+  overflow: hidden;
+  text-indent: 0;
+}
+.sidebar-offcanvas .hex:after {
+  box-shadow: inset 0 0 0 3px, 0 0 5px, 0 0 0 750px #cb4542;
+  z-index: 1;
+}
+.sidebar-offcanvas .user-avater {
+  text-align: center;
+}
 /*# sourceMappingURL=boo.css.map */
