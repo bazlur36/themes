@@ -10,6 +10,7 @@ body h1 {
 }
 .sidebar-offcanvas a {
   color: #ffffff;
+  outline: none;
 }
 .sidebar-offcanvas .hex {
   position: relative;
