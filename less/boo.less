@@ -1,74 +1,87 @@
+@orange: #cb4542;
+@white: #f1f1f1;
+
 body {
-	h1 {
-		font-weight: normal;
-		font-size: 38px;
-		margin: 0 auto;
-		text-transform: capitalize;
-	}
+  background: #f1f1f1;
+  h1 {
+    font-weight: normal;
+    font-size: 38px;
+    margin: 0 auto;
+    text-transform: capitalize;
+  }
 }
 
-@orange: #cb4542;
-@white: #fff;
+
 
 .sidebar-offcanvas {
   background: @orange;
-a {
-  color: @white;
-  outline: none;
-}
-  .hex  {
-    position:relative;
-    text-align:center;
-    overflow:hidden;
-    white-space:nowrap;
-    display:inline-block;
+  a {
+    color: @white;
+    outline: none;
+  }
+  .hex {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
   }
   .hex:before {
-    content:'';
-    padding-top:120%;
-    display:inline-block;
-    vertical-align:middle;
+    content: '';
+    padding-top: 120%;
+    display: inline-block;
+    vertical-align: middle;
 
   }
 
   .hex:after {
-    content:'';
-    position:absolute;
-    top:0%;
-    left:-10%;
-    width:120%;
-    padding-top:120%;
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    width: 120%;
+    padding-top: 120%;
     transform: rotatex(45deg) rotate(45deg);
-    text-align:center;
-    box-shadow:0 0 0 300px @orange;
+    text-align: center;
+    box-shadow: 0 0 0 300px @orange;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
   }
   .hex img {
-    display:inline-block;
-    vertical-align:middle;
-    margin:0 -10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 -10px;
   }
 
   /* draw borders ?*/
   .hex {
     outline: solid;
-    outline-offset:-3px;
-    overflow:hidden;
-    text-indent:0
-;
+    outline-offset: -3px;
+    overflow: hidden;
+    text-indent: 0;
   }
   .hex:after {
-    box-shadow:inset 0 0 0 3px, 0 0 5px,0 0 0 750px @orange;
-    z-index:1;
+    box-shadow: inset 0 0 0 3px, 0 0 5px, 0 0 0 750px @orange;
+    z-index: 1;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
   }
 
   .user-avater {
-    text-align:center;
+    text-align: center;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  padding-left: 0;
+  li {
+    list-style: none;
   }
 }
 
@@ -77,7 +90,7 @@ a {
   h1 {
 
     font-size: 40px;
-    label,span {
+    label, span {
       padding-left: 10%;
       float: left;
       text-align: left;
@@ -90,22 +103,140 @@ a {
     }
   }
 
-  ul {
+  ul.about-user {
     width: 90%;
     padding-left: 10%;
     margin-top: 20px;
     float: left;
     li {
-      list-style: none;
+
       margin-top: 20px;
     }
   }
 }
 
 .main-container {
-  background: rgb(203,69,66);
+  background: rgb(203, 69, 66);
 }
 
 .wide-content {
-  background: #fff;
+  background: #f1f1f1;
+  padding-top: 299px;
 }
+
+.hexagon {
+  width: 40px;
+  height: 22px;
+  background: @orange;
+  position: relative;
+  transform: scale(0.9999);
+}
+
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid @orange;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid @orange;
+}
+
+.social-links {
+  color: #000;
+  position: absolute;
+  right: -180px;
+  top: 80px;
+  z-index: 500;
+  li {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    span, label {
+      position: absolute;
+    }
+
+    span {
+      font-size: 20px;
+      color: #fff;
+      left: 10px;
+    }
+
+    label {
+      display: inline-block;
+      font-weight: normal;
+      left: 50px;
+      margin-bottom: 5px;
+      max-width: 100%;
+      top: 0;
+    }
+  }
+}
+h2 {
+  color: @orange;
+  font-size: 20px;
+  span {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 0;
+  .duration {
+    color: @orange;
+    font-weight: 500;
+  }
+}
+
+.progress {
+  background-color: @white;
+  border-radius: 10px;
+  border:  1px solid @orange;
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;*/
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: @orange;
+}
+
+.language {
+ /* text-align: center;*/
+  img {
+    width: 50px;
+    height: 30px;
+  }
+
+  ul {
+    margin-top: 10px;
+    li {
+
+    display: inline-block;
+    span.bright {
+      color: @orange;
+    }
+  }
+  }
+}
+
+
+
