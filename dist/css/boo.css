@@ -88,4 +88,10 @@ body h1 {
   list-style: none;
   margin-top: 20px;
 }
+.main-container {
+  background: #cb4542;
+}
+.wide-content {
+  background: #fff;
+}
 /*# sourceMappingURL=boo.css.map */
