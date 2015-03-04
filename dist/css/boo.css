@@ -209,4 +209,30 @@ h3 .duration {
 .language ul li span.bright {
   color: #cb4542;
 }
+@media (max-width: 1199px) {
+  .social-links {
+    color: #fff;
+    margin-bottom: 30px;
+    right: -154px;
+    top: 56px;
+  }
+  .sidebar-offcanvas .hex img {
+    width: 200px;
+  }
+  .wide-content {
+    padding-top: 20px;
+  }
+  .row-offcanvas-right .sidebar-offcanvas {
+    position: relative;
+    right: none;
+    left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .social-links {
+    position: relative;
+    right: none;
+    left: 0;
+  }
+}
 /*# sourceMappingURL=boo.css.map */
