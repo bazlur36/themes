@@ -209,6 +209,19 @@ h3 .duration {
 .language ul li span.bright {
   color: #cb4542;
 }
+.hobbies ul {
+  padding-left: 0px;
+}
+.hobbies ul li {
+  display: inline;
+  background: #cb4542;
+  padding: 3px 10px;
+  color: #f1f1f1;
+  margin-right: 20px;
+}
+.reference .glyphicon {
+  margin-right: 5px;
+}
 @media (max-width: 1199px) {
   .social-links {
     color: #fff;
