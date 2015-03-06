@@ -1,0 +1,292 @@
+@ash: rgb(219,217,218);
+@white: rgb(238,238,238);
+
+body {
+  background: @white;
+  font-family: Myriad Pro,Tahoma,Arial;
+  h1 {
+    font-weight: normal;
+    font-size: 38px;
+    margin: 0 auto;
+    text-transform: capitalize;
+  }
+}
+
+
+
+.sidebar-offcanvas {
+  background: @ash;
+  a {
+    color: @white;
+    outline: none;
+  }
+  .hex {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+  }
+  .hex:before {
+    content: '';
+    padding-top: 120%;
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+
+  .hex:after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    width: 120%;
+    padding-top: 120%;
+    transform: rotatex(45deg) rotate(45deg);
+    text-align: center;
+    box-shadow: 0 0 0 300px @ash;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+  }
+  .hex img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 -10px;
+  }
+
+  /* draw borders ?*/
+  .hex {
+    outline: solid;
+    outline-offset: -3px;
+    overflow: hidden;
+    text-indent: 0;
+  }
+  .hex:after {
+    box-shadow: inset 0 0 0 3px, 0 0 5px, 0 0 0 750px @ash;
+    z-index: 1;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+  }
+
+  .user-avater {
+    text-align: center;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  padding-left: 0;
+  li {
+    list-style: none;
+  }
+}
+
+#sidebar {
+  color: rgb(48,63,89);
+  h1 {
+
+    font-size: 40px;
+    label, span {
+      padding-left: 10%;
+      float: left;
+      text-align: left;
+      text-transform: uppercase;
+      line-height: 35px;
+    }
+
+    span {
+      font-weight: normal;
+    }
+  }
+
+  ul.about-user {
+    width: 90%;
+    padding-left: 10%;
+    margin-top: 20px;
+    float: left;
+    li {
+
+      margin-top: 20px;
+    }
+  }
+}
+
+.main-container {
+  background: @ash;
+}
+
+.wide-content {
+  background: @white;
+  padding-top: 299px;
+}
+
+.hexagon {
+  width: 40px;
+  height: 22px;
+  background: @ash;
+  position: relative;
+  transform: scale(0.9999);
+}
+
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid @ash;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid @ash;
+}
+
+.social-links {
+  color: #000;
+  position: absolute;
+  right: -180px;
+  top: 80px;
+  z-index: 500;
+  li {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    span, label {
+      position: absolute;
+    }
+
+    span {
+      font-size: 20px;
+      color: rgb(48,63,89);
+      left: 10px;
+    }
+
+    label {
+      display: inline-block;
+      font-weight: normal;
+      left: 50px;
+      margin-bottom: 5px;
+      max-width: 100%;
+      top: 0;
+    }
+  }
+}
+h2 {
+  color: rgb(48,63,89);
+  font-size: 20px;
+  span {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 0;
+  .duration {
+    color: rgb(48,63,89);
+    font-weight: 500;
+  }
+}
+
+.progress {
+  background-color: @white;
+  border-radius: 10px;
+  border:  2px solid rgb(48,63,89);
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;*/
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: rgb(48,63,89);
+}
+
+.language {
+ /* text-align: center;*/
+  img {
+    width: 50px;
+    height: 30px;
+  }
+
+  ul {
+    margin-top: 10px;
+    li {
+    color: rgb(133,133,133);
+    display: inline-block;
+    span.bright {
+      color:#303f59;
+    }
+  }
+  }
+}
+
+.hobbies ul {
+  padding-left: 0px;
+  li {
+    display: inline;
+    background: #303f59;
+    padding: 3px 10px;
+    color: @white;
+    margin-right: 20px;
+
+  }
+}
+
+.reference .glyphicon {
+  margin-right: 5px;
+}
+
+@media (max-width: 1199px) {
+  .social-links {
+    color: #fff;
+    margin-bottom: 30px;
+    right: -154px;
+    top: 56px;
+  }
+
+  .sidebar-offcanvas {
+    .hex {
+    img {
+      width: 200px;
+    }
+    }
+  }
+
+  .wide-content {
+    padding-top: 20px;
+  }
+
+  .row-offcanvas-right .sidebar-offcanvas {
+    position: relative;
+    right: none;
+    left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .social-links {
+   position: relative;
+    right: none;
+    left: 0;
+  }
+}
+
