@@ -210,6 +210,9 @@ h3 .duration {
 .language ul li span.bright {
   color: #303f59;
 }
+.language ul li:first-child {
+  width: 65px;
+}
 .hobbies ul {
   padding-left: 0px;
 }
