@@ -1,0 +1,251 @@
+body {
+  background: #f1f1f1;
+  font-family: Myriad Pro,Tahoma,Arial;
+}
+body h1 {
+  font-weight: normal;
+  font-size: 38px;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+.sidebar-offcanvas {
+  background: #41916e;
+  /* draw borders ?*/
+}
+.sidebar-offcanvas a {
+  color: #f1f1f1;
+  outline: none;
+}
+.sidebar-offcanvas .hex {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+}
+.sidebar-offcanvas .hex:before {
+  content: '';
+  padding-top: 120%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sidebar-offcanvas .hex:after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  width: 120%;
+  padding-top: 120%;
+  transform: rotatex(45deg) rotate(45deg);
+  text-align: center;
+  box-shadow: 0 0 0 300px #41916e;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.sidebar-offcanvas .hex img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 -10px;
+}
+.sidebar-offcanvas .hex {
+  outline: solid;
+  outline-offset: -3px;
+  overflow: hidden;
+  text-indent: 0;
+}
+.sidebar-offcanvas .hex:after {
+  box-shadow: inset 0 0 0 3px, 0 0 5px, 0 0 0 750px #41916e;
+  z-index: 1;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.sidebar-offcanvas .user-avater {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+}
+#sidebar {
+  color: #fff;
+}
+#sidebar h1 {
+  font-size: 40px;
+}
+#sidebar h1 label,
+#sidebar h1 span {
+  padding-left: 10%;
+  float: left;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+#sidebar h1 span {
+  font-weight: normal;
+}
+#sidebar ul.about-user {
+  width: 90%;
+  padding-left: 10%;
+  margin-top: 20px;
+  float: left;
+}
+#sidebar ul.about-user li {
+  margin-top: 20px;
+}
+.main-container {
+  background: #41916e;
+}
+.wide-content {
+  background: #f1f1f1;
+  padding-top: 299px;
+}
+.hexagon {
+  width: 40px;
+  height: 22px;
+  background: #41916e;
+  position: relative;
+  transform: scale(0.9999);
+}
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 10px solid #41916e;
+}
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid #41916e;
+}
+.social-links {
+  color: #000;
+  position: absolute;
+  right: -180px;
+  top: 80px;
+  z-index: 500;
+}
+.social-links li {
+  width: 200px;
+  height: 50px;
+  position: relative;
+}
+.social-links li span,
+.social-links li label {
+  position: absolute;
+}
+.social-links li span {
+  font-size: 20px;
+  color: #fff;
+  left: 10px;
+}
+.social-links li label {
+  display: inline-block;
+  font-weight: normal;
+  left: 50px;
+  margin-bottom: 5px;
+  max-width: 100%;
+  top: 0;
+}
+h2 {
+  color: #41916e;
+  font-size: 20px;
+}
+h2 span {
+  font-size: 12px;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+h3 .duration {
+  color: #41916e;
+  font-weight: 500;
+}
+.progress {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  border: 1px solid #41916e;
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;*/
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.progress-bar {
+  background-color: #41916e;
+}
+.language {
+  /* text-align: center;*/
+}
+.language img {
+  width: 50px;
+  height: 30px;
+}
+.language ul {
+  margin-top: 10px;
+}
+.language ul li {
+  display: inline-block;
+}
+.language ul li span.bright {
+  color: #41916e;
+}
+.hobbies ul {
+  padding-left: 0px;
+}
+.hobbies ul li {
+  display: inline;
+  background: #41916e;
+  padding: 3px 10px;
+  color: #f1f1f1;
+  margin-right: 20px;
+}
+.reference .glyphicon {
+  margin-right: 5px;
+}
+@media (max-width: 1199px) {
+  .social-links {
+    color: #fff;
+    margin-bottom: 30px;
+    right: -154px;
+    top: 56px;
+  }
+  .sidebar-offcanvas .hex img {
+    width: 200px;
+  }
+  .wide-content {
+    padding-top: 20px;
+  }
+  .row-offcanvas-right .sidebar-offcanvas {
+    position: relative;
+    right: none;
+    left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .social-links {
+    position: relative;
+    right: none;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=boo-green.css.map */
