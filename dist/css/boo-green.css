@@ -77,7 +77,7 @@ ul li {
   color: #fff;
 }
 #sidebar h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 #sidebar h1 label,
 #sidebar h1 span {
@@ -208,6 +208,9 @@ h3 .duration {
 }
 .language ul li span.bright {
   color: #41916e;
+}
+.language ul li:first-child {
+  width: 65px;
 }
 .hobbies ul {
   padding-left: 0px;

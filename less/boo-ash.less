@@ -89,8 +89,7 @@ ul {
 #sidebar {
   color: rgb(48,63,89);
   h1 {
-
-    font-size: 40px;
+    font-size: 30px;
     label, span {
       padding-left: 10%;
       float: left;
@@ -98,7 +97,6 @@ ul {
       text-transform: uppercase;
       line-height: 35px;
     }
-
     span {
       font-weight: normal;
     }
@@ -221,7 +219,7 @@ h3 {
 }
 
 .language {
- /* text-align: center;*/
+  /* text-align: center;*/
   img {
     width: 50px;
     height: 30px;
@@ -230,12 +228,14 @@ h3 {
   ul {
     margin-top: 10px;
     li {
-    color: rgb(133,133,133);
-    display: inline-block;
-    span.bright {
-      color:#303f59;
+      display: inline-block;
+      span.bright {
+        color: @violet;
+      }
     }
-  }
+    li:first-child {
+      width: 65px;
+    }
   }
 }
 
