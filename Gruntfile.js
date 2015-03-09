@@ -179,32 +179,10 @@ module.exports = function (grunt) {
           sourceMap: true,
           outputSourceFiles: true,
           sourceMapURL: 'boo-violet.css.map',
-          sourceMapFilename: 'dist/css/boo-violet.css.map'
+          sourceMapFilename: 'template2/css/template2.css.map'
         },
-        src: 'less/boo-violet.less',
-        dest: 'dist/css/boo-violet.css'
-      },
-        compileBooAsh: {
-        options: {
-          strictMath: true,
-          sourceMap: true,
-          outputSourceFiles: true,
-          sourceMapURL: 'boo-ash.css.map',
-          sourceMapFilename: 'dist/css/boo-ash.css.map'
-        },
-        src: 'less/boo-ash.less',
-        dest: 'dist/css/boo-ash.css'
-      },
-        compileBoo: {
-        options: {
-          strictMath: true,
-          sourceMap: true,
-          outputSourceFiles: true,
-          sourceMapURL: 'boo-green.css.map',
-          sourceMapFilename: 'dist/css/boo-green.css.map'
-        },
-        src: 'less/boo-green.less',
-        dest: 'dist/css/boo-green.css'
+        src: 'less/template2.less',
+        dest: 'dist/css/template2.css'
       }
     },
 
