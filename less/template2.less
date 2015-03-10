@@ -9,7 +9,6 @@
 body {
   font-size: 18px;
 }
-
 .logo {
   width: 170px;
   height: 170px;
@@ -20,12 +19,8 @@ body {
     width: 144px;
     height: 144px;
   }
-}
-
-.logo {
   .border-radius(90px);
 }
-
 .profile-owner {
   h1 {
     font-size: 90px;
@@ -37,7 +32,6 @@ body {
   }
   text-align: center;
 }
-
 .red {
   .logo {
     border: 3px solid @red;
@@ -47,55 +41,46 @@ body {
   }
   .contacts {
     background: @red;
-    &,a {
-    color: @white;
+    &, a {
+      color: @white;
+    }
   }
-  }
-
   hr {
     color: @red;
   }
 }
-
 .page-header {
   border-bottom: none;
 }
-
 .contacts {
   padding: 20px 40px;
 }
-
 hr {
   margin-top: 5px;
   border-bottom: 2px solid @red;
 }
-
-.globe {
+.globe, .mobile, .marker {
   .contact-icons;
-  background-position: -12px -90px;
 }
-
-.mobile {
-  .contact-icons;
-  background-position: -12px -675px;
+.red {
+  .globe {
+    background-position: -12px -90px;
+  }
+  .mobile {
+    background-position: -12px -675px;
+  }
+  .marker {
+    background-position: -12px -605px;
+  }
 }
-
-.marker {
-  .contact-icons;
-  background-position: -12px -605px;
-}
-
 .border-radius(@radius) {
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
   border-radius: @radius;
 }
-
-.red {
 .contact-icons {
   background: url("../images/icons.png") no-repeat;
   float: left;
   width: 55px;
   height: 50px;
-}
 }

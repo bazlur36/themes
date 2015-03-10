@@ -6,6 +6,9 @@ body {
   height: 170px;
   overflow: hidden;
   padding: 10px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  border-radius: 90px;
 }
 .logo img {
   -webkit-border-radius: 80px;
@@ -13,11 +16,6 @@ body {
   border-radius: 80px;
   width: 144px;
   height: 144px;
-}
-.logo {
-  -webkit-border-radius: 90px;
-  -moz-border-radius: 90px;
-  border-radius: 90px;
 }
 .profile-owner {
   text-align: center;
@@ -56,25 +54,21 @@ hr {
   margin-top: 5px;
   border-bottom: 2px solid #e75852;
 }
-.globe {
-  background: url("../images/icons.png") no-repeat;
-  float: left;
-  width: 55px;
-  height: 50px;
-  background-position: -12px -90px;
-}
-.mobile {
-  background: url("../images/icons.png") no-repeat;
-  float: left;
-  width: 55px;
-  height: 50px;
-  background-position: -12px -675px;
-}
+.globe,
+.mobile,
 .marker {
   background: url("../images/icons.png") no-repeat;
   float: left;
   width: 55px;
   height: 50px;
+}
+.red .globe {
+  background-position: -12px -90px;
+}
+.red .mobile {
+  background-position: -12px -675px;
+}
+.red .marker {
   background-position: -12px -605px;
 }
 .contact-icons {
