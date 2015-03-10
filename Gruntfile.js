@@ -173,16 +173,49 @@ module.exports = function (grunt) {
         dest: 'dist/css/<%= pkg.name %>-theme.css'
       },
 
-      compileBooViolet: {
+      compileTemplate2: {
+        options: {
+          strictMath: true,
+          sourceMap: true,
+          outputSourceFiles: true,
+          sourceMapURL: 'template2.css.map',
+          sourceMapFilename: 'template2/css/template2.css.map'
+        },
+        src: 'less/template2.less',
+        dest: 'template2/css/template2.css'
+      },
+        compileBooViolet: {
         options: {
           strictMath: true,
           sourceMap: true,
           outputSourceFiles: true,
           sourceMapURL: 'boo-violet.css.map',
-          sourceMapFilename: 'template2/css/template2.css.map'
+          sourceMapFilename: 'dist/css/boo-violet.css.map'
         },
-        src: 'less/template2.less',
-        dest: 'dist/css/template2.css'
+        src: 'less/boo-violet.less',
+        dest: 'dist/css/boo-violet.css'
+      },
+        compileBooAsh: {
+        options: {
+          strictMath: true,
+          sourceMap: true,
+          outputSourceFiles: true,
+          sourceMapURL: 'boo-ash.css.map',
+          sourceMapFilename: 'dist/css/boo-ash.css.map'
+        },
+        src: 'less/boo-ash.less',
+        dest: 'dist/css/boo-ash.css'
+      },
+        compileBoo: {
+        options: {
+          strictMath: true,
+          sourceMap: true,
+          outputSourceFiles: true,
+          sourceMapURL: 'boo-green.css.map',
+          sourceMapFilename: 'dist/css/boo-green.css.map'
+        },
+        src: 'less/boo-green.less',
+        dest: 'dist/css/boo-green.css'
       }
     },
 
