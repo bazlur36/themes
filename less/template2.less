@@ -5,6 +5,7 @@
 @light: #f4f4f3;
 @red: #e75852;
 @yellow: #f1ae24;
+@ash: #6a6a6a;
 
 body {
   font-size: 18px;
@@ -32,6 +33,83 @@ body {
   }
   text-align: center;
 }
+
+.page-header {
+  border-bottom: none;
+}
+.contacts {
+  padding: 0px 40px;
+
+    .online, .phone, .mail {
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+  }
+}
+hr {
+  margin-top: 5px;
+  border-bottom: 2px solid @red;
+}
+.icon {
+  background: url("../images/icons.png") no-repeat;
+}
+.globe, .mobile, .marker {
+  .contact-icons;
+}
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+.contact-icons {
+  background: url("../images/icons.png") no-repeat;
+  float: left;
+  width: 55px;
+  height: 50px;
+}
+
+.icon {
+  left: -4px;
+  width: 80px;
+  height: 80px;
+  top: 0;
+}
+
+.icon, .disk {
+  position: absolute;
+  z-index: 500;
+}
+
+.disk {
+  right: 0;
+  top: 35px;
+  width: 10px;
+  background: @dark;
+  height: 10px;
+  .border-radius(5px)
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  label {
+    background: @white;
+    padding: 0 20px;
+    position: relative;
+    top: 21px;
+    z-index: 300;
+  }
+  hr {
+    .hr-in-h2;
+  }
+}
+
+h3 {
+  letter-spacing: 3px;
+}
+
 .red {
   .logo {
     border: 3px solid @red;
@@ -48,21 +126,7 @@ body {
   hr {
     color: @red;
   }
-}
-.page-header {
-  border-bottom: none;
-}
-.contacts {
-  padding: 20px 40px;
-}
-hr {
-  margin-top: 5px;
-  border-bottom: 2px solid @red;
-}
-.globe, .mobile, .marker {
-  .contact-icons;
-}
-.red {
+
   .globe {
     background-position: -12px -90px;
   }
@@ -72,15 +136,26 @@ hr {
   .marker {
     background-position: -12px -605px;
   }
+  color: @dark;
+
+  .education {
+    .icon {
+      background-position: 0 -431px;
+    }
+  }
+
+  .duration {
+    color: @ash;
+    .mixin-duration;
+  }
 }
-.border-radius(@radius) {
-  -webkit-border-radius: @radius;
-  -moz-border-radius: @radius;
-  border-radius: @radius;
+
+.hr-in-h2 {
+position: relative;
+top: -5px;
 }
-.contact-icons {
-  background: url("../images/icons.png") no-repeat;
-  float: left;
-  width: 55px;
-  height: 50px;
+
+.mixin-duration {
+  letter-spacing: normal;
+  float: right;
 }

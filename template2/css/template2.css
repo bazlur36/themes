@@ -28,6 +28,83 @@ body {
   font-size: 25px;
   font-weight: normal;
 }
+.page-header {
+  border-bottom: none;
+}
+.contacts {
+  padding: 0px 40px;
+}
+.contacts .online,
+.contacts .phone,
+.contacts .mail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+hr {
+  margin-top: 5px;
+  border-bottom: 2px solid #e75852;
+}
+.icon {
+  background: url("../images/icons.png") no-repeat;
+}
+.globe,
+.mobile,
+.marker {
+  background: url("../images/icons.png") no-repeat;
+  float: left;
+  width: 55px;
+  height: 50px;
+}
+.contact-icons {
+  background: url("../images/icons.png") no-repeat;
+  float: left;
+  width: 55px;
+  height: 50px;
+}
+.icon {
+  left: -4px;
+  width: 80px;
+  height: 80px;
+  top: 0;
+}
+.icon,
+.disk {
+  position: absolute;
+  z-index: 500;
+}
+.disk {
+  right: 0;
+  top: 35px;
+  width: 10px;
+  background: #383835;
+  height: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+h2 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+h2 label {
+  background: #ffffff;
+  padding: 0 20px;
+  position: relative;
+  top: 21px;
+  z-index: 300;
+}
+h2 hr {
+  position: relative;
+  top: -5px;
+}
+h3 {
+  letter-spacing: 3px;
+}
+.red {
+  color: #383835;
+}
 .red .logo {
   border: 3px solid #e75852;
 }
@@ -44,24 +121,6 @@ body {
 .red hr {
   color: #e75852;
 }
-.page-header {
-  border-bottom: none;
-}
-.contacts {
-  padding: 20px 40px;
-}
-hr {
-  margin-top: 5px;
-  border-bottom: 2px solid #e75852;
-}
-.globe,
-.mobile,
-.marker {
-  background: url("../images/icons.png") no-repeat;
-  float: left;
-  width: 55px;
-  height: 50px;
-}
 .red .globe {
   background-position: -12px -90px;
 }
@@ -71,10 +130,20 @@ hr {
 .red .marker {
   background-position: -12px -605px;
 }
-.contact-icons {
-  background: url("../images/icons.png") no-repeat;
-  float: left;
-  width: 55px;
-  height: 50px;
+.red .education .icon {
+  background-position: 0 -431px;
+}
+.red .duration {
+  color: #6a6a6a;
+  letter-spacing: normal;
+  float: right;
+}
+.hr-in-h2 {
+  position: relative;
+  top: -5px;
+}
+.mixin-duration {
+  letter-spacing: normal;
+  float: right;
 }
 /*# sourceMappingURL=template2.css.map */
