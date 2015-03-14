@@ -2,6 +2,7 @@
 @white: #ffffff;
 @dark: #383835;
 @green: #38b565;
+/*@green: #4dfd38;*/
 @light: #f4f4f3;
 @red: #e75852;
 @yellow: #f1ae24;
@@ -51,7 +52,6 @@ body {
 }
 hr {
   margin-top: 5px;
-  border-bottom: 2px solid @red;
 }
 .icon {
   background: url("../images/icons.png") no-repeat;
@@ -247,7 +247,13 @@ h3 {
     }
     color: @dark;
 
-    .education {
+    .profile {
+      .icon {
+        background-position: 0 0;
+      }
+    }
+
+    .educations {
       .icon {
         background-position: 0 -431px;
       }
@@ -295,7 +301,98 @@ h3 {
       background-color: rgba(240,145,124,0.8);
       color: @white;
     }
+    hr {
+      border-bottom: 2px solid @red;
+    }
   }
+
+.green {
+  .logo {
+    border: 3px solid @green;
+    img {
+      background: @blue;
+    }
+  }
+  .contacts {
+    background: @green;
+    &, a {
+      color: @white;
+    }
+  }
+  hr {
+    color: @green;
+  }
+
+  .globe {
+    background-position: -12px -90px;
+  }
+  .mobile {
+    background-position: -12px -675px;
+  }
+  .marker {
+    background-position: -12px -605px;
+  }
+  color: @dark;
+
+  .profile {
+    .icon {
+      background-position: -87px 0;
+    }
+  }
+
+  .educations {
+    .icon {
+      background-position: -83px -431px;
+    }
+  }
+
+  .duration {
+    color: @ash;
+    .mixin-duration;
+  }
+
+  .progress-bar-success {
+    background: @dark;
+  }
+
+  .progress {
+    border: 2px solid @dark;
+    background: @white;
+    .eraser {
+      background: @dark;
+    }
+  }
+
+  .professional.skills h2 .icon {
+    background-position: -81px -340px;
+  }
+
+  .language.skills h2 .icon {
+    background-position: -86px -155px;
+  }
+
+  .experiences h2 .icon {
+    background-position: -82px -518px;
+  }
+
+  .capabilities h2 .icon {
+    background-position: -86px -248px;
+  }
+  p {color: @ash}
+
+  .web-design,.motion, .print {
+    background-color: rgba(237,237,237,0.8);
+  }
+
+  .adv, .illustration {
+    background-color: rgba(56,181,101,0.8);
+    color: @white;
+  }
+  hr {
+    border-bottom: 2px solid @green;
+  }
+}
+
 
   .hr-in-h2 {
     position: relative;

@@ -1,3 +1,4 @@
+/*@green: #4dfd38;*/
 body {
   font-size: 18px;
 }
@@ -42,7 +43,6 @@ body {
 }
 hr {
   margin-top: 5px;
-  border-bottom: 2px solid #e75852;
 }
 .icon {
   background: url("../images/icons.png") no-repeat;
@@ -245,7 +245,10 @@ h3 {
 .red .marker {
   background-position: -12px -605px;
 }
-.red .education .icon {
+.red .profile .icon {
+  background-position: 0 0;
+}
+.red .educations .icon {
   background-position: 0 -431px;
 }
 .red .duration {
@@ -287,6 +290,86 @@ h3 {
 .red .illustration {
   background-color: rgba(240, 145, 124, 0.8);
   color: #ffffff;
+}
+.red hr {
+  border-bottom: 2px solid #e75852;
+}
+.green {
+  color: #383835;
+}
+.green .logo {
+  border: 3px solid #38b565;
+}
+.green .logo img {
+  background: #3fa8dc;
+}
+.green .contacts {
+  background: #38b565;
+}
+.green .contacts,
+.green .contacts a {
+  color: #ffffff;
+}
+.green hr {
+  color: #38b565;
+}
+.green .globe {
+  background-position: -12px -90px;
+}
+.green .mobile {
+  background-position: -12px -675px;
+}
+.green .marker {
+  background-position: -12px -605px;
+}
+.green .profile .icon {
+  background-position: -87px 0;
+}
+.green .educations .icon {
+  background-position: -83px -431px;
+}
+.green .duration {
+  color: #6a6a6a;
+  letter-spacing: normal;
+  float: right;
+}
+.green .progress-bar-success {
+  background: #383835;
+}
+.green .progress {
+  border: 2px solid #383835;
+  background: #ffffff;
+}
+.green .progress .eraser {
+  background: #383835;
+}
+.green .professional.skills h2 .icon {
+  background-position: -81px -340px;
+}
+.green .language.skills h2 .icon {
+  background-position: -86px -155px;
+}
+.green .experiences h2 .icon {
+  background-position: -82px -518px;
+}
+.green .capabilities h2 .icon {
+  background-position: -86px -248px;
+}
+.green p {
+  color: #6a6a6a;
+}
+.green .web-design,
+.green .motion,
+.green .print {
+  background-color: rgba(237, 237, 237, 0.8);
+}
+.green .adv,
+.green .illustration {
+  background-color: rgba(56, 181, 101, 0.8);
+  color: #ffffff;
+}
+.green hr {
+  border-bottom: 2px solid #38b565;
 }
 .hr-in-h2 {
   position: relative;
