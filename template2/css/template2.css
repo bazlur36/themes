@@ -411,6 +411,279 @@ h3 {
 .green span.glyphicon {
   color: #38b565;
 }
+.light {
+  color: #383835;
+}
+.light .logo {
+  border: 3px solid #f4f4f3;
+}
+.light .logo img {
+  background: #3fa8dc;
+}
+.light .contacts {
+  background: #f4f4f3;
+}
+.light .contacts,
+.light .contacts a {
+  color: #383835;
+}
+.light hr {
+  color: #383835;
+}
+.light .globe {
+  background-position: -107px -90px;
+}
+.light .mobile {
+  background-position: -95px -675px;
+}
+.light .marker {
+  background-position: -98px -605px;
+}
+.light .profile .icon {
+  background-position: -255px 0;
+}
+.light .educations .icon {
+  background-position: -255px -425px;
+}
+.light .duration {
+  color: #6a6a6a;
+  letter-spacing: normal;
+  float: right;
+}
+.light .progress-bar-success {
+  background: #383835;
+}
+.light .progress {
+  border: 2px solid #383835;
+  background: #ffffff;
+}
+.light .progress .eraser {
+  background: #383835;
+}
+.light .professional.skills h2 .icon {
+  background-position: -255px -338px;
+}
+.light .language.skills h2 .icon {
+  background-position: -261px -160px;
+}
+.light .experiences h2 .icon {
+  background-position: -255px -518px;
+}
+.light .capabilities h2 .icon {
+  background-position: -258px -254px;
+}
+.light .hobbies h2 .icon,
+.light .references h2 .icon {
+  background-position: -263px -759px;
+}
+.light .hobbies h2 .icon i,
+.light .references h2 .icon i {
+  color: #b0adad;
+}
+.light p {
+  color: #6a6a6a;
+}
+.light .references p {
+  color: #383835;
+}
+.light .web-design,
+.light .motion,
+.light .print {
+  background-color: rgba(237, 237, 237, 0.8);
+}
+.light .adv,
+.light .illustration {
+  background-color: rgba(176, 176, 176, 0.8);
+  color: #ffffff;
+}
+.light hr {
+  border-bottom: 2px solid #383835;
+}
+.light span.glyphicon {
+  color: #b0adad;
+}
+.blue {
+  color: #383835;
+}
+.blue .logo {
+  border: 3px solid #3fa8dc;
+}
+.blue .logo img {
+  background: #3fa8dc;
+}
+.blue .contacts {
+  background: #3fa8dc;
+}
+.blue .contacts,
+.blue .contacts a {
+  color: #ffffff;
+}
+.blue hr {
+  color: #3fa8dc;
+}
+.blue .globe {
+  background-position: -12px -90px;
+}
+.blue .mobile {
+  background-position: -12px -675px;
+}
+.blue .marker {
+  background-position: -12px -605px;
+}
+.blue .profile .icon {
+  background-position: -425px 0;
+}
+.blue .educations .icon {
+  background-position: -426px -430px;
+}
+.blue .duration {
+  color: #6a6a6a;
+  letter-spacing: normal;
+  float: right;
+}
+.blue .progress-bar-success {
+  background: #383835;
+}
+.blue .progress {
+  border: 2px solid #383835;
+  background: #ffffff;
+}
+.blue .progress .eraser {
+  background: #383835;
+}
+.blue .professional.skills h2 .icon {
+  background-position: -425px -340px;
+}
+.blue .language.skills h2 .icon {
+  background-position: -428px -161px;
+}
+.blue .experiences h2 .icon {
+  background-position: -431px -518px;
+}
+.blue .capabilities h2 .icon {
+  background-position: -428px -251px;
+}
+.blue .hobbies h2 .icon,
+.blue .references h2 .icon {
+  background-position: -429px -759px;
+}
+.blue .hobbies h2 .icon i,
+.blue .references h2 .icon i {
+  color: #3fa8dc;
+}
+.blue p {
+  color: #6a6a6a;
+}
+.blue .references p {
+  color: #383835;
+}
+.blue .web-design,
+.blue .motion,
+.blue .print {
+  background-color: rgba(237, 237, 237, 0.8);
+}
+.blue .adv,
+.blue .illustration {
+  background-color: rgba(63, 168, 220, 0.8);
+  color: #ffffff;
+}
+.blue hr {
+  border-bottom: 2px solid #3fa8dc;
+}
+.blue span.glyphicon {
+  color: #3fa8dc;
+}
+.yellow {
+  color: #383835;
+}
+.yellow .logo {
+  border: 3px solid #f1ae24;
+}
+.yellow .logo img {
+  background: #3fa8dc;
+}
+.yellow .contacts {
+  background: #f1ae24;
+}
+.yellow .contacts,
+.yellow .contacts a {
+  color: #ffffff;
+}
+.yellow hr {
+  color: #f1ae24;
+}
+.yellow .globe {
+  background-position: -12px -90px;
+}
+.yellow .mobile {
+  background-position: -12px -675px;
+}
+.yellow .marker {
+  background-position: -12px -605px;
+}
+.yellow .profile .icon {
+  background-position: -340px 0;
+}
+.yellow .educations .icon {
+  background-position: -340px -431px;
+}
+.yellow .duration {
+  color: #6a6a6a;
+  letter-spacing: normal;
+  float: right;
+}
+.yellow .progress-bar-success {
+  background: #383835;
+}
+.yellow .progress {
+  border: 2px solid #383835;
+  background: #ffffff;
+}
+.yellow .progress .eraser {
+  background: #383835;
+}
+.yellow .professional.skills h2 .icon {
+  background-position: -340px -340px;
+}
+.yellow .language.skills h2 .icon {
+  background-position: -343px -160px;
+}
+.yellow .experiences h2 .icon {
+  background-position: -340px -518px;
+}
+.yellow .capabilities h2 .icon {
+  background-position: -343px -251px;
+}
+.yellow .hobbies h2 .icon,
+.yellow .references h2 .icon {
+  background-position: -345px -764px;
+}
+.yellow .hobbies h2 .icon i,
+.yellow .references h2 .icon i {
+  color: #f1ae24;
+}
+.yellow p {
+  color: #6a6a6a;
+}
+.yellow .references p {
+  color: #383835;
+}
+.yellow .web-design,
+.yellow .motion,
+.yellow .print {
+  background-color: rgba(237, 237, 237, 0.8);
+}
+.yellow .adv,
+.yellow .illustration {
+  background-color: rgba(241, 174, 36, 0.8);
+  color: #ffffff;
+}
+.yellow hr {
+  border-bottom: 2px solid #f1ae24;
+}
+.yellow span.glyphicon {
+  color: #f1ae24;
+}
 .dark {
   background: #383835;
   color: #ffffff;
