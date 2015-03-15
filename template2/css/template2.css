@@ -156,6 +156,18 @@ h3 {
 .education h3 {
   margin-bottom: 3px;
 }
+.reference span.glyphicon {
+  margin-right: 8px;
+}
+.references i.fa.fa-user-plus {
+  margin-top: 21px;
+}
+.references .reference {
+  padding-bottom: 10px;
+}
+.hobbies i.fa.fa-heartbeat {
+  margin-top: 25px;
+}
 .capabilities {
   position: relative;
 }
@@ -278,8 +290,19 @@ h3 {
 .red .capabilities h2 .icon {
   background-position: 0px -248px;
 }
+.red .hobbies h2 .icon,
+.red .references h2 .icon {
+  background-position: -1px -757px;
+}
+.red .hobbies h2 .icon i,
+.red .references h2 .icon i {
+  color: #e75852;
+}
 .red p {
   color: #6a6a6a;
+}
+.red .references p {
+  color: #383835;
 }
 .red .web-design,
 .red .motion,
@@ -293,6 +316,9 @@ h3 {
 }
 .red hr {
   border-bottom: 2px solid #e75852;
+}
+.red span.glyphicon {
+  color: #e75852;
 }
 .green {
   color: #383835;
@@ -355,8 +381,19 @@ h3 {
 .green .capabilities h2 .icon {
   background-position: -86px -248px;
 }
+.green .hobbies h2 .icon,
+.green .references h2 .icon {
+  background-position: -87px -759px;
+}
+.green .hobbies h2 .icon i,
+.green .references h2 .icon i {
+  color: #38b565;
+}
 .green p {
   color: #6a6a6a;
+}
+.green .references p {
+  color: #383835;
 }
 .green .web-design,
 .green .motion,
@@ -370,6 +407,108 @@ h3 {
 }
 .green hr {
   border-bottom: 2px solid #38b565;
+}
+.green span.glyphicon {
+  color: #38b565;
+}
+.dark {
+  background: #383835;
+  color: #ffffff;
+}
+.dark .logo {
+  border: 3px solid #ffffff;
+}
+.dark .logo img {
+  background: #3fa8dc;
+}
+.dark .contacts {
+  background: #ffffff;
+}
+.dark .contacts,
+.dark .contacts a {
+  color: #383835;
+}
+.dark hr {
+  color: #ffffff;
+}
+.dark .globe {
+  background-position: -107px -90px;
+}
+.dark .mobile {
+  background-position: -95px -675px;
+}
+.dark .marker {
+  background-position: -98px -605px;
+}
+.dark .profile .icon {
+  background-position: -169px -3px;
+}
+.dark .educations .icon {
+  background-position: -169px -426px;
+}
+.dark .duration {
+  color: #ffffff;
+  letter-spacing: normal;
+  float: right;
+}
+.dark .progress-bar-success {
+  background: #ffffff;
+  box-shadow: none;
+}
+.dark .progress {
+  border: 2px solid #ffffff;
+  background: #383835;
+}
+.dark .progress .eraser {
+  background: #ffffff;
+}
+.dark .professional.skills h2 .icon {
+  background-position: -169px -340px;
+}
+.dark .language.skills h2 .icon {
+  background-position: -169px -155px;
+}
+.dark .experiences h2 .icon {
+  background-position: -168px -518px;
+}
+.dark .capabilities h2 .icon {
+  background-position: -169px -248px;
+}
+.dark .hobbies h2 .icon,
+.dark .references h2 .icon {
+  background-position: -170px -759px;
+}
+.dark .hobbies h2 .icon i,
+.dark .references h2 .icon i {
+  color: #ffffff;
+}
+.dark p {
+  color: #ffffff;
+}
+.dark .references p {
+  color: #ffffff;
+}
+.dark .web-design,
+.dark .motion,
+.dark .print {
+  background-color: rgba(237, 237, 237, 0.8);
+}
+.dark .adv,
+.dark .illustration {
+  background-color: rgba(237, 237, 237, 0.8);
+  color: #ffffff;
+}
+.dark hr {
+  border-bottom: 2px solid #ffffff;
+}
+.dark span.glyphicon {
+  color: #ffffff;
+}
+.dark h2 label {
+  background: #383835;
+}
+.dark .disk {
+  background: #ffffff;
 }
 .hr-in-h2 {
   position: relative;

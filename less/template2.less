@@ -168,6 +168,27 @@ h3 {
   }
 }
 
+.reference span.glyphicon {
+  margin-right: 8px;
+}
+
+.references {
+  i.fa.fa-user-plus {
+    margin-top: 21px;
+  }
+
+  .reference {
+  padding-bottom: 10px;
+  }
+}
+
+.hobbies {
+  i.fa.fa-heartbeat {
+    margin-top: 25px;
+  }
+}
+
+
 .capabilities {
   position: relative;
   .capability {
@@ -291,7 +312,22 @@ h3 {
     .capabilities h2 .icon {
       background-position: 0px -248px;
     }
+
+    .hobbies h2 .icon ,
+    .references h2 .icon {
+      background-position: -1px -757px;
+      i {
+        color: @red;
+      }
+    }
+
     p {color: @ash}
+
+    .references {
+      p {
+        color: @dark;
+      }
+    }
 
     .web-design,.motion, .print {
       background-color: rgba(237,237,237,0.8);
@@ -303,6 +339,10 @@ h3 {
     }
     hr {
       border-bottom: 2px solid @red;
+    }
+
+    span.glyphicon {
+      color: @red;
     }
   }
 
@@ -378,7 +418,22 @@ h3 {
   .capabilities h2 .icon {
     background-position: -86px -248px;
   }
+
+  .hobbies h2 .icon ,
+  .references h2 .icon {
+    background-position: -87px -759px;
+    i {
+      color: @green;
+    }
+  }
+
   p {color: @ash}
+
+  .references {
+    p {
+      color: @dark;
+    }
+  }
 
   .web-design,.motion, .print {
     background-color: rgba(237,237,237,0.8);
@@ -390,6 +445,127 @@ h3 {
   }
   hr {
     border-bottom: 2px solid @green;
+  }
+
+  span.glyphicon {
+    color: @green;
+  }
+}
+
+.dark {
+  .logo {
+    border: 3px solid @white;
+    img {
+      background: @blue;
+    }
+  }
+  .contacts {
+    background: @white;
+    &, a {
+      color: @dark;
+    }
+  }
+  hr {
+    color: @white;
+  }
+
+  .globe {
+    background-position: -107px -90px;
+  }
+  .mobile {
+    background-position: -95px -675px;
+  }
+  .marker {
+    background-position: -98px -605px;
+  }
+
+  background: @dark;
+  color: @white;
+
+  .profile {
+    .icon {
+      background-position: -169px -3px;
+    }
+  }
+
+  .educations {
+    .icon {
+      background-position: -169px -426px;
+    }
+  }
+
+  .duration {
+    color: @white;
+    .mixin-duration;
+  }
+
+  .progress-bar-success {
+    background: @white; box-shadow: none;
+  }
+
+  .progress {
+    border: 2px solid @white;
+    background: @dark;
+    .eraser {
+      background: @white;
+    }
+  }
+
+  .professional.skills h2 .icon {
+    background-position: -169px -340px;
+  }
+
+  .language.skills h2 .icon {
+    background-position: -169px -155px;
+  }
+
+  .experiences h2 .icon {
+    background-position: -168px -518px;
+  }
+
+  .capabilities h2 .icon {
+    background-position: -169px -248px;
+  }
+
+  .hobbies h2 .icon ,
+  .references h2 .icon {
+    background-position: -170px -759px;
+    i {
+      color: @white;
+    }
+  }
+
+  p {color: @white}
+
+  .references {
+    p {
+      color: @white;
+    }
+  }
+
+  .web-design,.motion, .print {
+    background-color: rgba(237,237,237,0.8);
+  }
+
+  .adv, .illustration {
+    background-color: rgba(237,237,237,0.8);
+    color: @white;
+  }
+  hr {
+    border-bottom: 2px solid @white;
+  }
+
+  span.glyphicon {
+    color: @white;
+  }
+
+  h2 {
+    label {
+      background: @dark;
+    }
+  }
+  .disk {
+    background: @white;
   }
 }
 
