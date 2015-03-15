@@ -132,6 +132,9 @@ h3 {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
+.language .skill {
+  padding-bottom: 0;
+}
 .progress {
   position: relative;
 }
@@ -281,7 +284,7 @@ h3 {
 .red .professional.skills h2 .icon {
   background-position: 0px -342px;
 }
-.red .language.skills h2 .icon {
+.red .languages.skills h2 .icon {
   background-position: 0px -155px;
 }
 .red .experiences h2 .icon {
@@ -372,7 +375,7 @@ h3 {
 .green .professional.skills h2 .icon {
   background-position: -81px -340px;
 }
-.green .language.skills h2 .icon {
+.green .languages.skills h2 .icon {
   background-position: -86px -155px;
 }
 .green .experiences h2 .icon {
@@ -463,7 +466,7 @@ h3 {
 .light .professional.skills h2 .icon {
   background-position: -255px -338px;
 }
-.light .language.skills h2 .icon {
+.light .languages.skills h2 .icon {
   background-position: -261px -160px;
 }
 .light .experiences h2 .icon {
@@ -554,7 +557,7 @@ h3 {
 .blue .professional.skills h2 .icon {
   background-position: -425px -340px;
 }
-.blue .language.skills h2 .icon {
+.blue .languages.skills h2 .icon {
   background-position: -428px -161px;
 }
 .blue .experiences h2 .icon {
@@ -645,7 +648,7 @@ h3 {
 .yellow .professional.skills h2 .icon {
   background-position: -340px -340px;
 }
-.yellow .language.skills h2 .icon {
+.yellow .languages.skills h2 .icon {
   background-position: -343px -160px;
 }
 .yellow .experiences h2 .icon {
@@ -738,7 +741,7 @@ h3 {
 .dark .professional.skills h2 .icon {
   background-position: -169px -340px;
 }
-.dark .language.skills h2 .icon {
+.dark .languages.skills h2 .icon {
   background-position: -169px -155px;
 }
 .dark .experiences h2 .icon {
