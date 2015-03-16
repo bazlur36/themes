@@ -102,13 +102,16 @@ h2 hr {
 h3 {
   letter-spacing: 3px;
 }
+.skills h3 {
+  margin-top: 10px;
+}
 .skill {
   position: relative;
   padding-bottom: 10px;
 }
 .skill label {
   padding-left: 30px;
-  width: 200px;
+  width: 225px;
   text-transform: uppercase;
   font-weight: normal;
   font-size: 16px;
@@ -120,7 +123,7 @@ h3 {
 }
 .skills .skill .progress {
   float: right;
-  width: 300px;
+  width: 285px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -133,10 +136,12 @@ h3 {
   border-radius: 10px;
 }
 .language .skill {
-  padding-bottom: 0;
+  /*padding-bottom: 3px;*/
 }
 .progress {
   position: relative;
+  height: 16px;
+  margin-bottom: 8px;
 }
 .progress .eraser {
   height: 40px;
