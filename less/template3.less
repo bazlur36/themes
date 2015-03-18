@@ -1,0 +1,129 @@
+@white:#fff;
+@light: #ededed;
+@red: #dd1f38;
+@black: #000000;
+@dark: #373735;
+@dark-ash: #8b8a88;
+body {
+
+}
+
+.white {
+  h1,h2,h3 {
+    color: @black;
+  }
+  color: @dark-ash;
+}
+
+h3 {
+.separator, .designation, .degree {
+    color: @dark;
+  }
+
+  .separator {
+    margin: 0 10px;
+  }
+
+  .designation,.degree {
+    font-size: 17px;
+  }
+
+  .disk {
+    background: none repeat scroll 0 0 @red;
+    .border-radius(12px);
+    height: 12px;
+    left: -48px;
+    position: absolute;
+    top: 8px;
+    width: 12px;
+  }
+}
+
+.logo {
+  .border-radius(120px);
+  &, img {
+  width: 120px;
+  height: 120px;
+  }
+  overflow: hidden;
+  margin: 0 auto;
+  border: 5px solid @red;
+}
+
+.narrow {
+  text-align: center;
+}
+.wide {
+.skills {
+  .left-borderer();
+  h2 {
+    .block-header();
+    span {
+
+    }
+  }
+  .skill:nth-child(2) {
+    margin-top: 50px;
+  }
+
+
+  .skill {
+    h3 {
+      margin-top: 5px;position: relative;
+    }
+    float: left;
+    .company, .duration,.university {
+      text-transform: uppercase;
+    }
+    margin-bottom: 10px;
+  }
+
+  .skill:last-child {
+    &,p {
+    margin-bottom: 0;
+    }
+  }
+}
+}
+
+.educations {
+  margin-top: 50px;
+}
+
+h2 {
+  span {
+    .block_icon(40px);
+    font-size: 23px;
+  }
+  margin-top: 0;
+}
+
+.left-borderer() {
+  padding-left: 40px;
+  border-left: 5px solid @light;
+  float: left;
+}
+
+.block-header(){
+  text-transform: uppercase;
+  position: absolute;
+  left: -3px;
+}
+
+.block_icon(@width) {
+  width: @width;
+  height: @width;
+  .border-radius(@width);
+  box-shadow: 0px 0px 5px @dark;
+  color: @red;
+  background: @white;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-right: 12px;
+}
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}

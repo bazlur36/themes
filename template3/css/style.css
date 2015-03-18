@@ -1,0 +1,859 @@
+/*@green: #4dfd38;*/
+body {
+    font-size: 18px;
+}
+.logo {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    padding: 10px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+}
+.logo img {
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    width: 144px;
+    height: 144px;
+}
+.profile-owner {
+    text-align: center;
+}
+.profile-owner h1 {
+    font-size: 90px;
+    margin-bottom: 5px;
+}
+.profile-owner label {
+    font-size: 25px;
+    font-weight: normal;
+}
+.page-header {
+    border-bottom: none;
+}
+.contacts {
+    padding: 0px 40px;
+}
+.contacts .online,
+.contacts .phone,
+.contacts .mail {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr {
+    margin-top: 5px;
+}
+.icon {
+    background: url("../img/icons.png") no-repeat;
+}
+.globe,
+.mobile,
+.marker {
+    background: url("../img/icons.png") no-repeat;
+    float: left;
+    width: 55px;
+    height: 50px;
+}
+.contact-icons {
+    background: url("../img/icons.png") no-repeat;
+    float: left;
+    width: 55px;
+    height: 50px;
+}
+.icon {
+    left: -4px;
+    width: 80px;
+    height: 80px;
+    top: 0;
+}
+.icon,
+.disk {
+    position: absolute;
+    z-index: 500;
+}
+.disk {
+    right: 0;
+    top: 35px;
+    width: 10px;
+    background: #383835;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+h2 label {
+    background: #ffffff;
+    padding: 0 20px;
+    position: relative;
+    top: 24px;
+    z-index: 300;
+}
+h2 hr {
+    position: relative;
+    top: -5px;
+}
+h3 {
+    letter-spacing: 3px;
+}
+.skills h3 {
+    margin-top: 10px;
+}
+.skill {
+    position: relative;
+    padding-bottom: 10px;
+}
+.skill label {
+    padding-left: 30px;
+    width: 225px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+}
+.skill .disk {
+    right: auto;
+    left: 0;
+    top: 8px;
+}
+.skills .skill .progress {
+    float: right;
+    width: 285px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-left: 0;
+    margin-top: 5px;
+}
+.skill .progress-bar-success {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.language .skill {
+    /*padding-bottom: 3px;*/
+}
+.progress {
+    position: relative;
+    height: 16px;
+    margin-bottom: 8px;
+}
+.progress .eraser {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: -13px;
+    width: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.experience h4 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.education h4 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.education h3 {
+    margin-bottom: 3px;
+}
+.reference span.glyphicon {
+    margin-right: 8px;
+}
+.references i.fa.fa-user-plus {
+    margin-top: 21px;
+}
+.references .reference {
+    padding-bottom: 10px;
+}
+.hobbies i.fa.fa-heartbeat {
+    margin-top: 25px;
+}
+.capabilities {
+    position: relative;
+}
+.capabilities .capability {
+    position: absolute;
+    text-align: center;
+}
+.capabilities .capability.web-design {
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    padding-top: 55px;
+    width: 150px;
+    height: 150px;
+    z-index: 2500;
+}
+.capabilities .capability.adv {
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    height: 125px;
+    left: 132px;
+    padding-top: 45px;
+    top: 89px;
+    width: 125px;
+    z-index: 2000;
+}
+.capabilities .capability.motion {
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    padding-top: 25px;
+    width: 90px;
+    height: 90px;
+    z-index: 1500;
+    right: 230px;
+    top: 165px;
+}
+.capabilities .capability.illustration {
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    padding-top: 55px;
+    width: 150px;
+    height: 150px;
+    z-index: 2000;
+    right: 100px;
+    top: 100px;
+}
+.capabilities .capability.print {
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    border-radius: 120px;
+    text-align: center;
+    padding-top: 45px;
+    width: 120px;
+    height: 120px;
+    z-index: 500;
+    right: 0;
+    top: 150px;
+}
+.red {
+    color: #383835;
+}
+.red .logo {
+    border: 3px solid #e75852;
+}
+.red .logo img {
+    background: #3fa8dc;
+}
+.red .contacts {
+    background: #e75852;
+}
+.red .contacts,
+.red .contacts a {
+    color: #ffffff;
+}
+.red hr {
+    color: #e75852;
+}
+.red .globe {
+    background-position: -12px -90px;
+}
+.red .mobile {
+    background-position: -12px -675px;
+}
+.red .marker {
+    background-position: -12px -605px;
+}
+.red .profile .icon {
+    background-position: 0 0;
+}
+.red .educations .icon {
+    background-position: 0 -431px;
+}
+.red .duration {
+    color: #6a6a6a;
+    letter-spacing: normal;
+    float: right;
+}
+.red .progress-bar-success {
+    background: #383835;
+}
+.red .progress {
+    border: 2px solid #383835;
+    background: #ffffff;
+}
+.red .progress .eraser {
+    background: #383835;
+}
+.red .professional.skills h2 .icon {
+    background-position: 0px -342px;
+}
+.red .languages.skills h2 .icon {
+    background-position: 0px -155px;
+}
+.red .experiences h2 .icon {
+    background-position: 0px -518px;
+}
+.red .capabilities h2 .icon {
+    background-position: 0px -248px;
+}
+.red .hobbies h2 .icon,
+.red .references h2 .icon {
+    background-position: -1px -757px;
+}
+.red .hobbies h2 .icon i,
+.red .references h2 .icon i {
+    color: #e75852;
+}
+.red p {
+    color: #6a6a6a;
+}
+.red .references p {
+    color: #383835;
+}
+.red .web-design,
+.red .motion,
+.red .print {
+    background-color: rgba(237, 237, 237, 0.8);
+}
+.red .adv,
+.red .illustration {
+    background-color: rgba(240, 145, 124, 0.8);
+    color: #ffffff;
+}
+.red hr {
+    border-bottom: 2px solid #e75852;
+}
+.red span.glyphicon {
+    color: #e75852;
+}
+.green {
+    color: #383835;
+}
+.green .logo {
+    border: 3px solid #38b565;
+}
+.green .logo img {
+    background: #3fa8dc;
+}
+.green .contacts {
+    background: #38b565;
+}
+.green .contacts,
+.green .contacts a {
+    color: #ffffff;
+}
+.green hr {
+    color: #38b565;
+}
+.green .globe {
+    background-position: -12px -90px;
+}
+.green .mobile {
+    background-position: -12px -675px;
+}
+.green .marker {
+    background-position: -12px -605px;
+}
+.green .profile .icon {
+    background-position: -87px 0;
+}
+.green .educations .icon {
+    background-position: -83px -431px;
+}
+.green .duration {
+    color: #6a6a6a;
+    letter-spacing: normal;
+    float: right;
+}
+.green .progress-bar-success {
+    background: #383835;
+}
+.green .progress {
+    border: 2px solid #383835;
+    background: #ffffff;
+}
+.green .progress .eraser {
+    background: #383835;
+}
+.green .professional.skills h2 .icon {
+    background-position: -81px -340px;
+}
+.green .languages.skills h2 .icon {
+    background-position: -86px -155px;
+}
+.green .experiences h2 .icon {
+    background-position: -82px -518px;
+}
+.green .capabilities h2 .icon {
+    background-position: -86px -248px;
+}
+.green .hobbies h2 .icon,
+.green .references h2 .icon {
+    background-position: -87px -759px;
+}
+.green .hobbies h2 .icon i,
+.green .references h2 .icon i {
+    color: #38b565;
+}
+.green p {
+    color: #6a6a6a;
+}
+.green .references p {
+    color: #383835;
+}
+.green .web-design,
+.green .motion,
+.green .print {
+    background-color: rgba(237, 237, 237, 0.8);
+}
+.green .adv,
+.green .illustration {
+    background-color: rgba(56, 181, 101, 0.8);
+    color: #ffffff;
+}
+.green hr {
+    border-bottom: 2px solid #38b565;
+}
+.green span.glyphicon {
+    color: #38b565;
+}
+.light {
+    color: #383835;
+}
+.light .logo {
+    border: 3px solid #f4f4f3;
+}
+.light .logo img {
+    background: #3fa8dc;
+}
+.light .contacts {
+    background: #f4f4f3;
+}
+.light .contacts,
+.light .contacts a {
+    color: #383835;
+}
+.light hr {
+    color: #383835;
+}
+.light .globe {
+    background-position: -107px -90px;
+}
+.light .mobile {
+    background-position: -95px -675px;
+}
+.light .marker {
+    background-position: -98px -605px;
+}
+.light .profile .icon {
+    background-position: -255px 0;
+}
+.light .educations .icon {
+    background-position: -255px -425px;
+}
+.light .duration {
+    color: #6a6a6a;
+    letter-spacing: normal;
+    float: right;
+}
+.light .progress-bar-success {
+    background: #383835;
+}
+.light .progress {
+    border: 2px solid #383835;
+    background: #ffffff;
+}
+.light .progress .eraser {
+    background: #383835;
+}
+.light .professional.skills h2 .icon {
+    background-position: -255px -338px;
+}
+.light .languages.skills h2 .icon {
+    background-position: -261px -160px;
+}
+.light .experiences h2 .icon {
+    background-position: -255px -518px;
+}
+.light .capabilities h2 .icon {
+    background-position: -258px -254px;
+}
+.light .hobbies h2 .icon,
+.light .references h2 .icon {
+    background-position: -263px -759px;
+}
+.light .hobbies h2 .icon i,
+.light .references h2 .icon i {
+    color: #b0adad;
+}
+.light p {
+    color: #6a6a6a;
+}
+.light .references p {
+    color: #383835;
+}
+.light .web-design,
+.light .motion,
+.light .print {
+    background-color: rgba(237, 237, 237, 0.8);
+}
+.light .adv,
+.light .illustration {
+    background-color: rgba(176, 176, 176, 0.8);
+    color: #ffffff;
+}
+.light hr {
+    border-bottom: 2px solid #383835;
+}
+.light span.glyphicon {
+    color: #b0adad;
+}
+.blue {
+    color: #383835;
+}
+.blue .logo {
+    border: 3px solid #3fa8dc;
+}
+.blue .logo img {
+    background: #3fa8dc;
+}
+.blue .contacts {
+    background: #3fa8dc;
+}
+.blue .contacts,
+.blue .contacts a {
+    color: #ffffff;
+}
+.blue hr {
+    color: #3fa8dc;
+}
+.blue .globe {
+    background-position: -12px -90px;
+}
+.blue .mobile {
+    background-position: -12px -675px;
+}
+.blue .marker {
+    background-position: -12px -605px;
+}
+.blue .profile .icon {
+    background-position: -425px 0;
+}
+.blue .educations .icon {
+    background-position: -426px -430px;
+}
+.blue .duration {
+    color: #6a6a6a;
+    letter-spacing: normal;
+    float: right;
+}
+.blue .progress-bar-success {
+    background: #383835;
+}
+.blue .progress {
+    border: 2px solid #383835;
+    background: #ffffff;
+}
+.blue .progress .eraser {
+    background: #383835;
+}
+.blue .professional.skills h2 .icon {
+    background-position: -425px -340px;
+}
+.blue .languages.skills h2 .icon {
+    background-position: -428px -161px;
+}
+.blue .experiences h2 .icon {
+    background-position: -431px -518px;
+}
+.blue .capabilities h2 .icon {
+    background-position: -428px -251px;
+}
+.blue .hobbies h2 .icon,
+.blue .references h2 .icon {
+    background-position: -429px -759px;
+}
+.blue .hobbies h2 .icon i,
+.blue .references h2 .icon i {
+    color: #3fa8dc;
+}
+.blue p {
+    color: #6a6a6a;
+}
+.blue .references p {
+    color: #383835;
+}
+.blue .web-design,
+.blue .motion,
+.blue .print {
+    background-color: rgba(237, 237, 237, 0.8);
+}
+.blue .adv,
+.blue .illustration {
+    background-color: rgba(63, 168, 220, 0.8);
+    color: #ffffff;
+}
+.blue hr {
+    border-bottom: 2px solid #3fa8dc;
+}
+.blue span.glyphicon {
+    color: #3fa8dc;
+}
+.yellow {
+    color: #383835;
+}
+.yellow .logo {
+    border: 3px solid #f1ae24;
+}
+.yellow .logo img {
+    background: #3fa8dc;
+}
+.yellow .contacts {
+    background: #f1ae24;
+}
+.yellow .contacts,
+.yellow .contacts a {
+    color: #ffffff;
+}
+.yellow hr {
+    color: #f1ae24;
+}
+.yellow .globe {
+    background-position: -12px -90px;
+}
+.yellow .mobile {
+    background-position: -12px -675px;
+}
+.yellow .marker {
+    background-position: -12px -605px;
+}
+.yellow .profile .icon {
+    background-position: -340px 0;
+}
+.yellow .educations .icon {
+    background-position: -340px -431px;
+}
+.yellow .duration {
+    color: #6a6a6a;
+    letter-spacing: normal;
+    float: right;
+}
+.yellow .progress-bar-success {
+    background: #383835;
+}
+.yellow .progress {
+    border: 2px solid #383835;
+    background: #ffffff;
+}
+.yellow .progress .eraser {
+    background: #383835;
+}
+.yellow .professional.skills h2 .icon {
+    background-position: -340px -340px;
+}
+.yellow .languages.skills h2 .icon {
+    background-position: -343px -160px;
+}
+.yellow .experiences h2 .icon {
+    background-position: -340px -518px;
+}
+.yellow .capabilities h2 .icon {
+    background-position: -343px -251px;
+}
+.yellow .hobbies h2 .icon,
+.yellow .references h2 .icon {
+    background-position: -345px -764px;
+}
+.yellow .hobbies h2 .icon i,
+.yellow .references h2 .icon i {
+    color: #f1ae24;
+}
+.yellow p {
+    color: #6a6a6a;
+}
+.yellow .references p {
+    color: #383835;
+}
+.yellow .web-design,
+.yellow .motion,
+.yellow .print {
+    background-color: rgba(237, 237, 237, 0.8);
+}
+.yellow .adv,
+.yellow .illustration {
+    background-color: rgba(241, 174, 36, 0.8);
+    color: #ffffff;
+}
+.yellow hr {
+    border-bottom: 2px solid #f1ae24;
+}
+.yellow span.glyphicon {
+    color: #f1ae24;
+}
+.dark {
+    background: #383835;
+    color: #ffffff;
+}
+.dark .logo {
+    border: 3px solid #ffffff;
+}
+.dark .logo img {
+    background: #3fa8dc;
+}
+.dark .contacts {
+    background: #ffffff;
+}
+.dark .contacts,
+.dark .contacts a {
+    color: #383835;
+}
+.dark hr {
+    color: #ffffff;
+}
+.dark .globe {
+    background-position: -107px -90px;
+}
+.dark .mobile {
+    background-position: -95px -675px;
+}
+.dark .marker {
+    background-position: -98px -605px;
+}
+.dark .profile .icon {
+    background-position: -169px -3px;
+}
+.dark .educations .icon {
+    background-position: -169px -426px;
+}
+.dark .duration {
+    color: #ffffff;
+    letter-spacing: normal;
+    float: right;
+}
+.dark .progress-bar-success {
+    background: #ffffff;
+    box-shadow: none;
+}
+.dark .progress {
+    border: 2px solid #ffffff;
+    background: #383835;
+}
+.dark .progress .eraser {
+    background: #ffffff;
+}
+.dark .professional.skills h2 .icon {
+    background-position: -169px -340px;
+}
+.dark .languages.skills h2 .icon {
+    background-position: -169px -155px;
+}
+.dark .experiences h2 .icon {
+    background-position: -168px -518px;
+}
+.dark .capabilities h2 .icon {
+    background-position: -169px -248px;
+}
+.dark .hobbies h2 .icon,
+.dark .references h2 .icon {
+    background-position: -170px -759px;
+}
+.dark .hobbies h2 .icon i,
+.dark .references h2 .icon i {
+    color: #ffffff;
+}
+.dark p {
+    color: #ffffff;
+}
+.dark .references p {
+    color: #ffffff;
+}
+.dark .web-design,
+.dark .motion,
+.dark .print {
+    background-color: rgba(237, 237, 237, 0.8);
+}
+.dark .adv,
+.dark .illustration {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: #ffffff;
+}
+.dark hr {
+    border-bottom: 2px solid #ffffff;
+}
+.dark span.glyphicon {
+    color: #ffffff;
+}
+.dark h2 label {
+    background: #383835;
+}
+.dark .disk {
+    background: #ffffff;
+}
+.hr-in-h2 {
+    position: relative;
+    top: -5px;
+}
+.mixin-duration {
+    letter-spacing: normal;
+    float: right;
+}
+@media (min-width: 460px) {
+    .row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+/*# sourceMappingURL=template2.css.map */

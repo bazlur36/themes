@@ -45,18 +45,18 @@ hr {
   margin-top: 5px;
 }
 .icon {
-  background: url("../images/icons.png") no-repeat;
+  background: url("../img/icons.png") no-repeat;
 }
 .globe,
 .mobile,
 .marker {
-  background: url("../images/icons.png") no-repeat;
+  background: url("../img/icons.png") no-repeat;
   float: left;
   width: 55px;
   height: 50px;
 }
 .contact-icons {
-  background: url("../images/icons.png") no-repeat;
+  background: url("../img/icons.png") no-repeat;
   float: left;
   width: 55px;
   height: 50px;
@@ -237,558 +237,558 @@ h3 {
   right: 0;
   top: 150px;
 }
-.red {
+.color-e75852 {
   color: #383835;
 }
-.red .logo {
+.color-e75852 .logo {
   border: 3px solid #e75852;
 }
-.red .logo img {
+.color-e75852 .logo img {
   background: #3fa8dc;
 }
-.red .contacts {
+.color-e75852 .contacts {
   background: #e75852;
 }
-.red .contacts,
-.red .contacts a {
+.color-e75852 .contacts,
+.color-e75852 .contacts a {
   color: #ffffff;
 }
-.red hr {
+.color-e75852 hr {
   color: #e75852;
 }
-.red .globe {
+.color-e75852 .globe {
   background-position: -12px -90px;
 }
-.red .mobile {
+.color-e75852 .mobile {
   background-position: -12px -675px;
 }
-.red .marker {
+.color-e75852 .marker {
   background-position: -12px -605px;
 }
-.red .profile .icon {
+.color-e75852 .profile .icon {
   background-position: 0 0;
 }
-.red .educations .icon {
+.color-e75852 .educations .icon {
   background-position: 0 -431px;
 }
-.red .duration {
+.color-e75852 .duration {
   color: #6a6a6a;
   letter-spacing: normal;
   float: right;
 }
-.red .progress-bar-success {
+.color-e75852 .progress-bar-success {
   background: #383835;
 }
-.red .progress {
+.color-e75852 .progress {
   border: 2px solid #383835;
   background: #ffffff;
 }
-.red .progress .eraser {
+.color-e75852 .progress .eraser {
   background: #383835;
 }
-.red .professional.skills h2 .icon {
+.color-e75852 .professional.skills h2 .icon {
   background-position: 0px -342px;
 }
-.red .languages.skills h2 .icon {
+.color-e75852 .languages.skills h2 .icon {
   background-position: 0px -155px;
 }
-.red .experiences h2 .icon {
+.color-e75852 .experiences h2 .icon {
   background-position: 0px -518px;
 }
-.red .capabilities h2 .icon {
+.color-e75852 .capabilities h2 .icon {
   background-position: 0px -248px;
 }
-.red .hobbies h2 .icon,
-.red .references h2 .icon {
+.color-e75852 .hobbies h2 .icon,
+.color-e75852 .references h2 .icon {
   background-position: -1px -757px;
 }
-.red .hobbies h2 .icon i,
-.red .references h2 .icon i {
+.color-e75852 .hobbies h2 .icon i,
+.color-e75852 .references h2 .icon i {
   color: #e75852;
 }
-.red p {
+.color-e75852 p {
   color: #6a6a6a;
 }
-.red .references p {
+.color-e75852 .references p {
   color: #383835;
 }
-.red .web-design,
-.red .motion,
-.red .print {
+.color-e75852 .web-design,
+.color-e75852 .motion,
+.color-e75852 .print {
   background-color: rgba(237, 237, 237, 0.8);
 }
-.red .adv,
-.red .illustration {
+.color-e75852 .adv,
+.color-e75852 .illustration {
   background-color: rgba(240, 145, 124, 0.8);
   color: #ffffff;
 }
-.red hr {
+.color-e75852 hr {
   border-bottom: 2px solid #e75852;
 }
-.red span.glyphicon {
+.color-e75852 span.glyphicon {
   color: #e75852;
 }
-.green {
+.color-38b565 {
   color: #383835;
 }
-.green .logo {
+.color-38b565 .logo {
   border: 3px solid #38b565;
 }
-.green .logo img {
+.color-38b565 .logo img {
   background: #3fa8dc;
 }
-.green .contacts {
+.color-38b565 .contacts {
   background: #38b565;
 }
-.green .contacts,
-.green .contacts a {
+.color-38b565 .contacts,
+.color-38b565 .contacts a {
   color: #ffffff;
 }
-.green hr {
+.color-38b565 hr {
   color: #38b565;
 }
-.green .globe {
+.color-38b565 .globe {
   background-position: -12px -90px;
 }
-.green .mobile {
+.color-38b565 .mobile {
   background-position: -12px -675px;
 }
-.green .marker {
+.color-38b565 .marker {
   background-position: -12px -605px;
 }
-.green .profile .icon {
+.color-38b565 .profile .icon {
   background-position: -87px 0;
 }
-.green .educations .icon {
+.color-38b565 .educations .icon {
   background-position: -83px -431px;
 }
-.green .duration {
+.color-38b565 .duration {
   color: #6a6a6a;
   letter-spacing: normal;
   float: right;
 }
-.green .progress-bar-success {
+.color-38b565 .progress-bar-success {
   background: #383835;
 }
-.green .progress {
+.color-38b565 .progress {
   border: 2px solid #383835;
   background: #ffffff;
 }
-.green .progress .eraser {
+.color-38b565 .progress .eraser {
   background: #383835;
 }
-.green .professional.skills h2 .icon {
+.color-38b565 .professional.skills h2 .icon {
   background-position: -81px -340px;
 }
-.green .languages.skills h2 .icon {
+.color-38b565 .languages.skills h2 .icon {
   background-position: -86px -155px;
 }
-.green .experiences h2 .icon {
+.color-38b565 .experiences h2 .icon {
   background-position: -82px -518px;
 }
-.green .capabilities h2 .icon {
+.color-38b565 .capabilities h2 .icon {
   background-position: -86px -248px;
 }
-.green .hobbies h2 .icon,
-.green .references h2 .icon {
+.color-38b565 .hobbies h2 .icon,
+.color-38b565 .references h2 .icon {
   background-position: -87px -759px;
 }
-.green .hobbies h2 .icon i,
-.green .references h2 .icon i {
+.color-38b565 .hobbies h2 .icon i,
+.color-38b565 .references h2 .icon i {
   color: #38b565;
 }
-.green p {
+.color-38b565 p {
   color: #6a6a6a;
 }
-.green .references p {
+.color-38b565 .references p {
   color: #383835;
 }
-.green .web-design,
-.green .motion,
-.green .print {
+.color-38b565 .web-design,
+.color-38b565 .motion,
+.color-38b565 .print {
   background-color: rgba(237, 237, 237, 0.8);
 }
-.green .adv,
-.green .illustration {
+.color-38b565 .adv,
+.color-38b565 .illustration {
   background-color: rgba(56, 181, 101, 0.8);
   color: #ffffff;
 }
-.green hr {
+.color-38b565 hr {
   border-bottom: 2px solid #38b565;
 }
-.green span.glyphicon {
+.color-38b565 span.glyphicon {
   color: #38b565;
 }
-.light {
+.color-f4f4f3 {
   color: #383835;
 }
-.light .logo {
+.color-f4f4f3 .logo {
   border: 3px solid #f4f4f3;
 }
-.light .logo img {
+.color-f4f4f3 .logo img {
   background: #3fa8dc;
 }
-.light .contacts {
+.color-f4f4f3 .contacts {
   background: #f4f4f3;
 }
-.light .contacts,
-.light .contacts a {
+.color-f4f4f3 .contacts,
+.color-f4f4f3 .contacts a {
   color: #383835;
 }
-.light hr {
+.color-f4f4f3 hr {
   color: #383835;
 }
-.light .globe {
+.color-f4f4f3 .globe {
   background-position: -107px -90px;
 }
-.light .mobile {
+.color-f4f4f3 .mobile {
   background-position: -95px -675px;
 }
-.light .marker {
+.color-f4f4f3 .marker {
   background-position: -98px -605px;
 }
-.light .profile .icon {
+.color-f4f4f3 .profile .icon {
   background-position: -255px 0;
 }
-.light .educations .icon {
+.color-f4f4f3 .educations .icon {
   background-position: -255px -425px;
 }
-.light .duration {
+.color-f4f4f3 .duration {
   color: #6a6a6a;
   letter-spacing: normal;
   float: right;
 }
-.light .progress-bar-success {
+.color-f4f4f3 .progress-bar-success {
   background: #383835;
 }
-.light .progress {
+.color-f4f4f3 .progress {
   border: 2px solid #383835;
   background: #ffffff;
 }
-.light .progress .eraser {
+.color-f4f4f3 .progress .eraser {
   background: #383835;
 }
-.light .professional.skills h2 .icon {
+.color-f4f4f3 .professional.skills h2 .icon {
   background-position: -255px -338px;
 }
-.light .languages.skills h2 .icon {
+.color-f4f4f3 .languages.skills h2 .icon {
   background-position: -261px -160px;
 }
-.light .experiences h2 .icon {
+.color-f4f4f3 .experiences h2 .icon {
   background-position: -255px -518px;
 }
-.light .capabilities h2 .icon {
+.color-f4f4f3 .capabilities h2 .icon {
   background-position: -258px -254px;
 }
-.light .hobbies h2 .icon,
-.light .references h2 .icon {
+.color-f4f4f3 .hobbies h2 .icon,
+.color-f4f4f3 .references h2 .icon {
   background-position: -263px -759px;
 }
-.light .hobbies h2 .icon i,
-.light .references h2 .icon i {
+.color-f4f4f3 .hobbies h2 .icon i,
+.color-f4f4f3 .references h2 .icon i {
   color: #b0adad;
 }
-.light p {
+.color-f4f4f3 p {
   color: #6a6a6a;
 }
-.light .references p {
+.color-f4f4f3 .references p {
   color: #383835;
 }
-.light .web-design,
-.light .motion,
-.light .print {
+.color-f4f4f3 .web-design,
+.color-f4f4f3 .motion,
+.color-f4f4f3 .print {
   background-color: rgba(237, 237, 237, 0.8);
 }
-.light .adv,
-.light .illustration {
+.color-f4f4f3 .adv,
+.color-f4f4f3 .illustration {
   background-color: rgba(176, 176, 176, 0.8);
   color: #ffffff;
 }
-.light hr {
+.color-f4f4f3 hr {
   border-bottom: 2px solid #383835;
 }
-.light span.glyphicon {
+.color-f4f4f3 span.glyphicon {
   color: #b0adad;
 }
-.blue {
+.color-3fa8dc {
   color: #383835;
 }
-.blue .logo {
+.color-3fa8dc .logo {
   border: 3px solid #3fa8dc;
 }
-.blue .logo img {
+.color-3fa8dc .logo img {
   background: #3fa8dc;
 }
-.blue .contacts {
+.color-3fa8dc .contacts {
   background: #3fa8dc;
 }
-.blue .contacts,
-.blue .contacts a {
+.color-3fa8dc .contacts,
+.color-3fa8dc .contacts a {
   color: #ffffff;
 }
-.blue hr {
+.color-3fa8dc hr {
   color: #3fa8dc;
 }
-.blue .globe {
+.color-3fa8dc .globe {
   background-position: -12px -90px;
 }
-.blue .mobile {
+.color-3fa8dc .mobile {
   background-position: -12px -675px;
 }
-.blue .marker {
+.color-3fa8dc .marker {
   background-position: -12px -605px;
 }
-.blue .profile .icon {
+.color-3fa8dc .profile .icon {
   background-position: -425px 0;
 }
-.blue .educations .icon {
+.color-3fa8dc .educations .icon {
   background-position: -426px -430px;
 }
-.blue .duration {
+.color-3fa8dc .duration {
   color: #6a6a6a;
   letter-spacing: normal;
   float: right;
 }
-.blue .progress-bar-success {
+.color-3fa8dc .progress-bar-success {
   background: #383835;
 }
-.blue .progress {
+.color-3fa8dc .progress {
   border: 2px solid #383835;
   background: #ffffff;
 }
-.blue .progress .eraser {
+.color-3fa8dc .progress .eraser {
   background: #383835;
 }
-.blue .professional.skills h2 .icon {
+.color-3fa8dc .professional.skills h2 .icon {
   background-position: -425px -340px;
 }
-.blue .languages.skills h2 .icon {
+.color-3fa8dc .languages.skills h2 .icon {
   background-position: -428px -161px;
 }
-.blue .experiences h2 .icon {
+.color-3fa8dc .experiences h2 .icon {
   background-position: -431px -518px;
 }
-.blue .capabilities h2 .icon {
+.color-3fa8dc .capabilities h2 .icon {
   background-position: -428px -251px;
 }
-.blue .hobbies h2 .icon,
-.blue .references h2 .icon {
+.color-3fa8dc .hobbies h2 .icon,
+.color-3fa8dc .references h2 .icon {
   background-position: -429px -759px;
 }
-.blue .hobbies h2 .icon i,
-.blue .references h2 .icon i {
+.color-3fa8dc .hobbies h2 .icon i,
+.color-3fa8dc .references h2 .icon i {
   color: #3fa8dc;
 }
-.blue p {
+.color-3fa8dc p {
   color: #6a6a6a;
 }
-.blue .references p {
+.color-3fa8dc .references p {
   color: #383835;
 }
-.blue .web-design,
-.blue .motion,
-.blue .print {
+.color-3fa8dc .web-design,
+.color-3fa8dc .motion,
+.color-3fa8dc .print {
   background-color: rgba(237, 237, 237, 0.8);
 }
-.blue .adv,
-.blue .illustration {
+.color-3fa8dc .adv,
+.color-3fa8dc .illustration {
   background-color: rgba(63, 168, 220, 0.8);
   color: #ffffff;
 }
-.blue hr {
+.color-3fa8dc hr {
   border-bottom: 2px solid #3fa8dc;
 }
-.blue span.glyphicon {
+.color-3fa8dc span.glyphicon {
   color: #3fa8dc;
 }
-.yellow {
+.color-f1ae24 {
   color: #383835;
 }
-.yellow .logo {
+.color-f1ae24 .logo {
   border: 3px solid #f1ae24;
 }
-.yellow .logo img {
+.color-f1ae24 .logo img {
   background: #3fa8dc;
 }
-.yellow .contacts {
+.color-f1ae24 .contacts {
   background: #f1ae24;
 }
-.yellow .contacts,
-.yellow .contacts a {
+.color-f1ae24 .contacts,
+.color-f1ae24 .contacts a {
   color: #ffffff;
 }
-.yellow hr {
+.color-f1ae24 hr {
   color: #f1ae24;
 }
-.yellow .globe {
+.color-f1ae24 .globe {
   background-position: -12px -90px;
 }
-.yellow .mobile {
+.color-f1ae24 .mobile {
   background-position: -12px -675px;
 }
-.yellow .marker {
+.color-f1ae24 .marker {
   background-position: -12px -605px;
 }
-.yellow .profile .icon {
+.color-f1ae24 .profile .icon {
   background-position: -340px 0;
 }
-.yellow .educations .icon {
+.color-f1ae24 .educations .icon {
   background-position: -340px -431px;
 }
-.yellow .duration {
+.color-f1ae24 .duration {
   color: #6a6a6a;
   letter-spacing: normal;
   float: right;
 }
-.yellow .progress-bar-success {
+.color-f1ae24 .progress-bar-success {
   background: #383835;
 }
-.yellow .progress {
+.color-f1ae24 .progress {
   border: 2px solid #383835;
   background: #ffffff;
 }
-.yellow .progress .eraser {
+.color-f1ae24 .progress .eraser {
   background: #383835;
 }
-.yellow .professional.skills h2 .icon {
+.color-f1ae24 .professional.skills h2 .icon {
   background-position: -340px -340px;
 }
-.yellow .languages.skills h2 .icon {
+.color-f1ae24 .languages.skills h2 .icon {
   background-position: -343px -160px;
 }
-.yellow .experiences h2 .icon {
+.color-f1ae24 .experiences h2 .icon {
   background-position: -340px -518px;
 }
-.yellow .capabilities h2 .icon {
+.color-f1ae24 .capabilities h2 .icon {
   background-position: -343px -251px;
 }
-.yellow .hobbies h2 .icon,
-.yellow .references h2 .icon {
+.color-f1ae24 .hobbies h2 .icon,
+.color-f1ae24 .references h2 .icon {
   background-position: -345px -764px;
 }
-.yellow .hobbies h2 .icon i,
-.yellow .references h2 .icon i {
+.color-f1ae24 .hobbies h2 .icon i,
+.color-f1ae24 .references h2 .icon i {
   color: #f1ae24;
 }
-.yellow p {
+.color-f1ae24 p {
   color: #6a6a6a;
 }
-.yellow .references p {
+.color-f1ae24 .references p {
   color: #383835;
 }
-.yellow .web-design,
-.yellow .motion,
-.yellow .print {
+.color-f1ae24 .web-design,
+.color-f1ae24 .motion,
+.color-f1ae24 .print {
   background-color: rgba(237, 237, 237, 0.8);
 }
-.yellow .adv,
-.yellow .illustration {
+.color-f1ae24 .adv,
+.color-f1ae24 .illustration {
   background-color: rgba(241, 174, 36, 0.8);
   color: #ffffff;
 }
-.yellow hr {
+.color-f1ae24 hr {
   border-bottom: 2px solid #f1ae24;
 }
-.yellow span.glyphicon {
+.color-f1ae24 span.glyphicon {
   color: #f1ae24;
 }
-.dark {
+.color-383835 {
   background: #383835;
   color: #ffffff;
 }
-.dark .logo {
+.color-383835 .logo {
   border: 3px solid #ffffff;
 }
-.dark .logo img {
+.color-383835 .logo img {
   background: #3fa8dc;
 }
-.dark .contacts {
+.color-383835 .contacts {
   background: #ffffff;
 }
-.dark .contacts,
-.dark .contacts a {
+.color-383835 .contacts,
+.color-383835 .contacts a {
   color: #383835;
 }
-.dark hr {
+.color-383835 hr {
   color: #ffffff;
 }
-.dark .globe {
+.color-383835 .globe {
   background-position: -107px -90px;
 }
-.dark .mobile {
+.color-383835 .mobile {
   background-position: -95px -675px;
 }
-.dark .marker {
+.color-383835 .marker {
   background-position: -98px -605px;
 }
-.dark .profile .icon {
+.color-383835 .profile .icon {
   background-position: -169px -3px;
 }
-.dark .educations .icon {
+.color-383835 .educations .icon {
   background-position: -169px -426px;
 }
-.dark .duration {
+.color-383835 .duration {
   color: #ffffff;
   letter-spacing: normal;
   float: right;
 }
-.dark .progress-bar-success {
+.color-383835 .progress-bar-success {
   background: #ffffff;
   box-shadow: none;
 }
-.dark .progress {
+.color-383835 .progress {
   border: 2px solid #ffffff;
   background: #383835;
 }
-.dark .progress .eraser {
+.color-383835 .progress .eraser {
   background: #ffffff;
 }
-.dark .professional.skills h2 .icon {
+.color-383835 .professional.skills h2 .icon {
   background-position: -169px -340px;
 }
-.dark .languages.skills h2 .icon {
+.color-383835 .languages.skills h2 .icon {
   background-position: -169px -155px;
 }
-.dark .experiences h2 .icon {
+.color-383835 .experiences h2 .icon {
   background-position: -168px -518px;
 }
-.dark .capabilities h2 .icon {
+.color-383835 .capabilities h2 .icon {
   background-position: -169px -248px;
 }
-.dark .hobbies h2 .icon,
-.dark .references h2 .icon {
+.color-383835 .hobbies h2 .icon,
+.color-383835 .references h2 .icon {
   background-position: -170px -759px;
 }
-.dark .hobbies h2 .icon i,
-.dark .references h2 .icon i {
+.color-383835 .hobbies h2 .icon i,
+.color-383835 .references h2 .icon i {
   color: #ffffff;
 }
-.dark p {
+.color-383835 p {
   color: #ffffff;
 }
-.dark .references p {
+.color-383835 .references p {
   color: #ffffff;
 }
-.dark .web-design,
-.dark .motion,
-.dark .print {
+.color-383835 .web-design,
+.color-383835 .motion,
+.color-383835 .print {
   background-color: rgba(237, 237, 237, 0.8);
 }
-.dark .adv,
-.dark .illustration {
+.color-383835 .adv,
+.color-383835 .illustration {
   background-color: rgba(237, 237, 237, 0.8);
   color: #ffffff;
 }
-.dark hr {
+.color-383835 hr {
   border-bottom: 2px solid #ffffff;
 }
-.dark span.glyphicon {
+.color-383835 span.glyphicon {
   color: #ffffff;
 }
-.dark h2 label {
+.color-383835 h2 label {
   background: #383835;
 }
-.dark .disk {
+.color-383835 .disk {
   background: #ffffff;
 }
 .hr-in-h2 {

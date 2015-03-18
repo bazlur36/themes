@@ -184,6 +184,17 @@ module.exports = function (grunt) {
         src: 'less/template2.less',
         dest: 'template2/css/template2.css'
       },
+        compileTemplate3: {
+        options: {
+          strictMath: true,
+          sourceMap: true,
+          outputSourceFiles: true,
+          sourceMapURL: 'template3.css.map',
+          sourceMapFilename: 'template3/css/template3.css.map'
+        },
+        src: 'less/template3.less',
+        dest: 'template3/css/template3.css'
+      },
         compileBooViolet: {
         options: {
           strictMath: true,

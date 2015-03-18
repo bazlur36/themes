@@ -1,0 +1,98 @@
+.white {
+  color: #8b8a88;
+}
+.white h1,
+.white h2,
+.white h3 {
+  color: #000000;
+}
+h3 .separator,
+h3 .designation,
+h3 .degree {
+  color: #373735;
+}
+h3 .separator {
+  margin: 0 10px;
+}
+h3 .designation,
+h3 .degree {
+  font-size: 17px;
+}
+h3 .disk {
+  background: none repeat scroll 0 0 #dd1f38;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 12px;
+  left: -48px;
+  position: absolute;
+  top: 8px;
+  width: 12px;
+}
+.logo {
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  border-radius: 120px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 5px solid #dd1f38;
+}
+.logo,
+.logo img {
+  width: 120px;
+  height: 120px;
+}
+.narrow {
+  text-align: center;
+}
+.wide .skills {
+  padding-left: 40px;
+  border-left: 5px solid #ededed;
+  float: left;
+}
+.wide .skills h2 {
+  text-transform: uppercase;
+  position: absolute;
+  left: -3px;
+}
+.wide .skills .skill:nth-child(2) {
+  margin-top: 50px;
+}
+.wide .skills .skill {
+  float: left;
+  margin-bottom: 10px;
+}
+.wide .skills .skill h3 {
+  margin-top: 5px;
+  position: relative;
+}
+.wide .skills .skill .company,
+.wide .skills .skill .duration,
+.wide .skills .skill .university {
+  text-transform: uppercase;
+}
+.wide .skills .skill:last-child,
+.wide .skills .skill:last-child p {
+  margin-bottom: 0;
+}
+.educations {
+  margin-top: 50px;
+}
+h2 {
+  margin-top: 0;
+}
+h2 span {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 5px #373735;
+  color: #dd1f38;
+  background: #ffffff;
+  padding-top: 8px;
+  padding-left: 8px;
+  margin-right: 12px;
+  font-size: 23px;
+}
+/*# sourceMappingURL=template3.css.map */
