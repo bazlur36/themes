@@ -6,6 +6,15 @@
 .white h3 {
   color: #000000;
 }
+.dark {
+  color: #8b8a88;
+  background-color: #373735;
+}
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: #8b8a88;
+}
 h3 .separator,
 h3 .designation,
 h3 .degree {
@@ -26,54 +35,191 @@ h3 .disk {
   height: 12px;
   left: -48px;
   position: absolute;
-  top: 8px;
+  top: 4px;
   width: 12px;
 }
 .logo {
-  -webkit-border-radius: 120px;
-  -moz-border-radius: 120px;
-  border-radius: 120px;
+  -webkit-border-radius: 180px;
+  -moz-border-radius: 180px;
+  border-radius: 180px;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 15px auto;
   border: 5px solid #dd1f38;
 }
 .logo,
 .logo img {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
+}
+.contacts,
+.professional,
+.languages,
+.hobbies {
+  border-radius: 15px;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
+  background: #ededed;
+}
+.contacts,
+.professional,
+.languages,
+.hobbies,
+.contacts a,
+.professional a,
+.languages a,
+.hobbies a {
+  color: #8b8a88;
+}
+.contacts > div,
+.professional > div,
+.languages > div,
+.hobbies > div {
+  margin-bottom: 15px;
+}
+.contacts > div.address-line-1,
+.professional > div.address-line-1,
+.languages > div.address-line-1,
+.hobbies > div.address-line-1 {
+  margin-bottom: 2px;
+}
+.hobbies h3 {
+  margin-top: 0;
+}
+.hobbies ul {
+  padding-left: 0;
+  list-style: none;
+}
+.hobbies ul li {
+  position: relative;
+}
+.hobbies ul li .disk {
+  background: none repeat scroll 0 0 #dd1f38;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 12px;
+  margin-right: 3px;
+  display: inline-block;
+  width: 12px;
 }
 .narrow {
   text-align: center;
 }
-.wide .skills {
+.progress-bar-success {
+  background-color: #dd1f38;
+}
+.progress {
+  border: 2px solid #dd1f38;
+  height: 16px;
+  margin-bottom: 0;
+}
+.page-header {
+  border-bottom: 0;
+}
+.progress-bar {
+  box-shadow: none;
+}
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.narrow span.glyphicon {
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  background-color: #dd1f38;
+  color: #ffffff;
+  padding-top: 7px;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.narrow span.bigcircle {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #dd1f38;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+  font-size: 27px;
+}
+.wide .skills,
+.wide .references {
   padding-left: 40px;
   border-left: 5px solid #ededed;
   float: left;
 }
-.wide .skills h2 {
+.wide .skills h2,
+.wide .references h2 {
   text-transform: uppercase;
   position: absolute;
-  left: -3px;
+  left: -7px;
 }
-.wide .skills .skill:nth-child(2) {
+.wide .skills .skill:nth-child(2),
+.wide .references .skill:nth-child(2) {
   margin-top: 50px;
 }
-.wide .skills .skill {
+.wide .skills .reference:nth-child(2),
+.wide .references .reference:nth-child(2) {
+  margin-top: 70px;
+}
+.wide .skills .skill,
+.wide .references .skill,
+.wide .skills .reference,
+.wide .references .reference {
   float: left;
   margin-bottom: 10px;
 }
-.wide .skills .skill h3 {
+.wide .skills .skill h3,
+.wide .references .skill h3,
+.wide .skills .reference h3,
+.wide .references .reference h3 {
   margin-top: 5px;
   position: relative;
 }
 .wide .skills .skill .company,
+.wide .references .skill .company,
+.wide .skills .reference .company,
+.wide .references .reference .company,
 .wide .skills .skill .duration,
-.wide .skills .skill .university {
+.wide .references .skill .duration,
+.wide .skills .reference .duration,
+.wide .references .reference .duration,
+.wide .skills .skill .university,
+.wide .references .skill .university,
+.wide .skills .reference .university,
+.wide .references .reference .university {
   text-transform: uppercase;
 }
 .wide .skills .skill:last-child,
-.wide .skills .skill:last-child p {
+.wide .references .skill:last-child,
+.wide .skills .reference:last-child,
+.wide .references .reference:last-child,
+.wide .skills .skill:last-child p,
+.wide .references .skill:last-child p,
+.wide .skills .reference:last-child p,
+.wide .references .reference:last-child p {
   margin-bottom: 0;
+}
+.wide .references {
+  margin-top: 50px;
+}
+.wide .references .glyphicon {
+  color: #dd1f38;
+  margin-right: 5px;
+}
+.resume {
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background: #ededed;
+  width: 100%;
+  letter-spacing: 2px;
 }
 .educations {
   margin-top: 50px;
@@ -82,17 +228,20 @@ h2 {
   margin-top: 0;
 }
 h2 span {
-  width: 40px;
-  height: 40px;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   box-shadow: 0px 0px 5px #373735;
   color: #dd1f38;
   background: #ffffff;
-  padding-top: 8px;
-  padding-left: 8px;
-  margin-right: 12px;
-  font-size: 23px;
+  padding-top: 13px;
+  padding-left: 11px;
+  margin-right: 8px;
+  font-size: 27px;
+}
+.references h2 span {
+  padding-top: 6px;
 }
 /*# sourceMappingURL=template3.css.map */

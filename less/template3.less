@@ -1,4 +1,4 @@
-@white:#fff;
+@white: #fff;
 @light: #ededed;
 @red: #dd1f38;
 @black: #000000;
@@ -9,14 +9,22 @@ body {
 }
 
 .white {
-  h1,h2,h3 {
+  h1, h2, h3 {
     color: @black;
   }
   color: @dark-ash;
 }
 
+.dark {
+  h1, h2, h3 {
+    color: @dark-ash;
+  }
+  color: @dark-ash;
+  background-color: @dark;
+}
+
 h3 {
-.separator, .designation, .degree {
+  .separator, .designation, .degree {
     color: @dark;
   }
 
@@ -24,7 +32,7 @@ h3 {
     margin: 0 10px;
   }
 
-  .designation,.degree {
+  .designation, .degree {
     font-size: 17px;
   }
 
@@ -34,56 +42,169 @@ h3 {
     height: 12px;
     left: -48px;
     position: absolute;
-    top: 8px;
+    top: 4px;
     width: 12px;
   }
 }
 
 .logo {
-  .border-radius(120px);
+  .border-radius(180px);
   &, img {
-  width: 120px;
-  height: 120px;
+    width: 180px;
+    height: 180px;
   }
   overflow: hidden;
-  margin: 0 auto;
+  margin: 15px auto;
   border: 5px solid @red;
+}
+
+.contacts, .professional,.languages,.hobbies {
+  .narrow_panel();
+  background: @light;
+  &, a {
+    color: @dark-ash;
+  }
+
+  & > div {
+    margin-bottom: 15px;
+    &.address-line-1 {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.hobbies {
+  h3 {
+  margin-top: 0;
+}ul {
+  padding-left: 0;
+  list-style: none;
+  li {
+    position: relative;
+     .disk {
+       background: none repeat scroll 0 0 @red;
+       .border-radius(12px);
+       height: 12px;
+       margin-right: 3px;
+       display: inline-block;
+       width: 12px;
+     }
+  }
+
+}
+}
+
+.narrow_panel() {
+  border-radius: 15px;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
 }
 
 .narrow {
   text-align: center;
 }
+
+.progress-bar-success {
+  background-color: @red;
+}
+
+.progress {
+  border: 2px solid @red;
+  height: 16px;
+  margin-bottom: 0;
+}
+
+.page-header {
+  border-bottom: 0;
+}
+
+.progress-bar {
+  box-shadow: none;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.narrow {
+  span.glyphicon {
+    .border-radius(35px);
+    width: 35px;
+    height: 35px;
+    background-color: @red;
+    color: @white;
+    padding-top: 7px;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  span.bigcircle {
+    .border-radius(50px);
+    width: 50px;
+    height: 50px;
+    background-color: @red;
+    color: @white;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-size: 27px;
+  }
+}
+
 .wide {
-.skills {
-  .left-borderer();
-  h2 {
-    .block-header();
-    span {
+  .skills, .references {
+    .left-borderer();
+    h2 {
+      .block-header();
+      span {
 
+      }
+    }
+    .skill:nth-child(2) {
+      margin-top: 50px;
+    }
+
+    .reference:nth-child(2) {
+      margin-top: 70px;
+    }
+
+    .skill, .reference {
+      h3 {
+        margin-top: 5px;
+        position: relative;
+      }
+      float: left;
+      .company, .duration, .university {
+        text-transform: uppercase;
+      }
+      margin-bottom: 10px;
+    }
+
+    .skill:last-child,.reference:last-child {
+      &, p {
+        margin-bottom: 0;
+      }
     }
   }
-  .skill:nth-child(2) {
+
+  .references {
     margin-top: 50px;
-  }
 
-
-  .skill {
-    h3 {
-      margin-top: 5px;position: relative;
-    }
-    float: left;
-    .company, .duration,.university {
-      text-transform: uppercase;
-    }
-    margin-bottom: 10px;
-  }
-
-  .skill:last-child {
-    &,p {
-    margin-bottom: 0;
+    .glyphicon {
+      color: @red;
+      margin-right: 5px;
     }
   }
 }
+
+.resume {
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background: @light;
+  width: 100%;
+  letter-spacing: 2px;
 }
 
 .educations {
@@ -92,10 +213,15 @@ h3 {
 
 h2 {
   span {
-    .block_icon(40px);
-    font-size: 23px;
+    .block_icon(50px);
+    font-size: 27px;
+    .references & {
+      padding-top: 6px;
+    }
   }
   margin-top: 0;
+
+
 }
 
 .left-borderer() {
@@ -104,10 +230,10 @@ h2 {
   float: left;
 }
 
-.block-header(){
+.block-header() {
   text-transform: uppercase;
   position: absolute;
-  left: -3px;
+  left: -7px;
 }
 
 .block_icon(@width) {
@@ -117,9 +243,9 @@ h2 {
   box-shadow: 0px 0px 5px @dark;
   color: @red;
   background: @white;
-  padding-top: 8px;
-  padding-left: 8px;
-  margin-right: 12px;
+  padding-top: 13px;
+  padding-left: 11px;
+  margin-right: 8px;
 }
 
 .border-radius(@radius) {
